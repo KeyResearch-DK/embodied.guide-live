@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cosmos Policy — NVIDIA · embodied.guide</title>
+<meta name="description" content="Cosmos Policy, NVIDIA. A reference work with a source and a date on every number">
+<link rel="canonical" href="https://embodied.guide/robots/nvidia-cosmos-policy/">
+<link rel="alternate" hreflang="en" href="https://embodied.guide/robots/nvidia-cosmos-policy/">
+<link rel="alternate" hreflang="x-default" href="https://embodied.guide/robots/nvidia-cosmos-policy/">
+<link rel="stylesheet" href="../../system.css">
+<link rel="stylesheet" href="../../generator.css">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5MJFN2KEZT"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-5MJFN2KEZT')</script>
+</head>
+<body>
+<a class="spring" href="#hoved">Skip to content</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+<symbol id="i-vaegt" viewBox="0 0 24 24"><path d="M9.4 8a2.6 2.6 0 0 1 5.2 0"/><path d="M7 8h10l1.9 11.4a1.4 1.4 0 0 1-1.4 1.6H6.5a1.4 1.4 0 0 1-1.4-1.6Z"/></symbol>
+<symbol id="i-nyttelast" viewBox="0 0 24 24"><path d="M12 3v4.6"/><path d="M9.7 5.4 12 7.7l2.3-2.3"/><path d="M7.5 10.2h9v8.3h-9z"/><path d="M3.4 21h17.2"/></symbol>
+<symbol id="i-driftstid" viewBox="0 0 24 24"><path d="M3.6 8.2h12.9a1.6 1.6 0 0 1 1.6 1.6v4.4a1.6 1.6 0 0 1-1.6 1.6H3.6A1.6 1.6 0 0 1 2 14.2V9.8a1.6 1.6 0 0 1 1.6-1.6Z"/><path d="M20.8 10.9v2.2"/><path d="M4.9 10.9h4.3v2.2H4.9z"/></symbol>
+<symbol id="i-fart" viewBox="0 0 24 24"><path d="M3.6 17.4a8.8 8.8 0 1 1 16.8 0"/><path d="M12 17.4 16.4 10.6"/><circle cx="12" cy="17.4" r="1.35"/></symbol>
+<symbol id="i-ip" viewBox="0 0 24 24"><path d="M12 2.7 5.6 5.3v6c0 4.1 2.7 7.3 6.4 8.4 3.7-1.1 6.4-4.3 6.4-8.4v-6Z"/><path d="M12 8.9c-1.4 1.8-2.2 2.9-2.2 4a2.2 2.2 0 0 0 4.4 0c0-1.1-.8-2.2-2.2-4Z"/></symbol>
+<symbol id="i-ce" viewBox="0 0 24 24"><path d="M6 2.9h7.3L18 7.7v13.4H6z"/><path d="M13.3 2.9v4.8H18"/><path d="M9 13.1h6"/><path d="M9 16.5h4"/></symbol>
+<symbol id="i-hul" viewBox="0 0 24 24"><path d="M4.4 4.4h15.2v15.2H4.4z" stroke-dasharray="3.2 3.2"/></symbol>
+<symbol id="i-pil" viewBox="0 0 24 24"><path d="M4 12h15"/><path d="M13.4 6.4 19 12l-5.6 5.6"/></symbol>
+<!-- Tre-tilstandsmaerkerne (3.6, spor/fundament, L54/L57 / MANIFEST §"Tre-
+     tilstandsreglen, tegnet"). Ingen unicode-glyffer, ingen emoji. Delte
+     .ikon-standarden (fill:none, stroke:currentColor) daekker konturerne;
+     de to fyldte former (i-ja, i-nul's prik) saetter fill/stroke direkte
+     paa elementet, saa de vinder over den nedarvede fill:none uden at
+     roere .ikon-klassen. Farven ("fuldt blaek" / "stoev-blaek") er IKKE
+     hardkodet her - den kommer fra brugsstedets color, som i alle de
+     andre symbolerne. Samme 4,4/15,2-kvadrat som i-hul, saa de fire
+     maerker og den eksisterende "ikke oplyst"-firkant deler stoerrelse. -->
+<symbol id="i-ja" viewBox="0 0 24 24"><path d="M4.4 4.4h15.2v15.2H4.4z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-nej" viewBox="0 0 24 24"><path d="M4.4 4.4h15.2v15.2H4.4z"/><path d="M5.8 5.8 18.2 18.2"/></symbol>
+<symbol id="i-nul" viewBox="0 0 24 24"><path d="M4.4 4.4h15.2v15.2H4.4z"/><circle cx="12" cy="12" r="2.6" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-ioplyst" viewBox="0 0 24 24"><path d="M4.4 4.4h15.2v15.2H4.4z" stroke-dasharray="3.2 3.2"/></symbol>
+</svg>
+<header class="daek">
+<div class="daek__ramme rum">
+<div class="daek__mark">
+<a class="daek__navn" href="../../">embodied.guide</a>
+</div>
+<nav class="daek__nav" aria-label="Site sections">
+<ul>
+<li><a href="../../#type-humanoid" data-klasse="humanoid">Humanoids</a></li>
+<li><a href="../../#type-quadruped" data-klasse="quadruped">Quadrupeds</a></li>
+<li><a href="../../#type-ai_model" data-klasse="ai_model" aria-current="true">AI models</a></li>
+<li><a href="../../manufacturers/">Manufacturers</a></li>
+<li><a href="../../about/">About us</a></li>
+</ul>
+</nav>
+<p class="daek__enhed"><label class="enhedsskift" for="enhedsskift"><span class="enhedsskift__ord enhedsskift__ord--metrisk" aria-hidden="true">Metric</span><span class="enhedsskift__ord enhedsskift__ord--imperial">Imperial</span></label></p>
+</div>
+</header>
+<main class="side" id="hoved" data-sidens-klasse="ai_model">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+<symbol id="i-pris" viewBox="0 0 24 24"><path d="M20.6 13 13 5.4a2 2 0 0 0-1.4-.6H4a2 2 0 0 0-2 2v7.6a2 2 0 0 0 .6 1.4l7.6 7.6a2 2 0 0 0 2.8 0l7.6-7.6a2 2 0 0 0 0-2.8Z"/><circle cx="7.5" cy="7.5" r="1.5"/></symbol>
+</svg>
+<div class="rum">
+
+
+<article class="robotside typeskilt">
+
+<header class="robot-top">
+<div class="robot-navn modeltop">
+<div class="modeltop__venstre">
+<p class="kort-ophav"><a class="prod" href="../../manufacturers/nvidia/">NVIDIA</a><span class="land">United States</span><span class="figur aar">2026</span></p>
+<h1 class="t-h1">Cosmos Policy</h1>
+
+</div>
+<div class="modeltop__hoejre">
+<div class="topfelt__logoplads"><img class="topfelt__logo" src="../../billeder/logoer/nvidia.svg" alt="" decoding="async"></div>
+
+</div>
+</div>
+</header>
+<section class="sektion" aria-labelledby="noegletal-h">
+<div class="stribe-hylster">
+<div class="stribe-hoved">
+<h2 class="etiket etiket--blaek" id="noegletal-h">Key figures as stated by the developer</h2>
+<span class="stribe-taeller"><b>6 of 7 key figures stated</b></span>
+
+</div>
+<ul class="stribe stribe--seks stribe--model stribe--k3">
+<li><span class="krop">
+<span class="etiket"><span class="advarsel-hale">Controls ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A" title="Primary source.">A</a></span></span>
+<span class="feltvaerdi"><span class="v v-liste"><code>arms and hands</code></span></span></span></li>
+<li><span class="krop">
+<span class="etiket"><span class="advarsel-hale">Inputs ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A" title="Primary source.">A</a></span></span>
+<span class="feltvaerdi"><span class="v v-liste"><code>camera</code> <code>language</code> <code>robot state</code></span></span></span></li>
+<li><span class="krop">
+<span class="etiket"><span class="advarsel-hale">Access ⁠<a class="kildemaerke" href="#kilde-B" aria-label="Source B" title="Primary source.">B</a></span></span>
+<span class="feltvaerdi"><a href="https://arxiv.org/abs/2601.16163" rel="nofollow noopener external"><span class="v v-tekst">open download</span></a></span></span></li>
+<li><span class="krop">
+<span class="etiket"><span class="advarsel-hale">Parameters ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A" title="Primary source.">A</a></span></span>
+<span class="feltvaerdi"><span class="v v-tal"><b class="num">2B</b></span></span></span></li>
+<li><span class="krop">
+<span class="etiket">Base <span class="advarsel-hale">model ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A" title="Primary source.">A</a></span></span>
+<span class="feltvaerdi"><span class="v v-tekst">NVIDIA Cosmos-Predict2-2B-Video2World</span></span></span></li>
+<li><span class="krop">
+<span class="etiket">Free or <span class="advarsel-hale">paid ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A" title="Primary source.">A</a></span></span>
+<span class="feltvaerdi"><span class="v v-tekst">Open weights, non-commercial</span></span></span></li>
+</ul>
+<p class="skema__savn stribe__savn">Not stated: Model type</p>
+</div>
+
+</section>
+<section class="sektion skema" id="skema" aria-labelledby="skema-h">
+<div class="skema__hoved">
+<h2 class="etiket etiket--blaek" id="skema-h">Full specifications</h2>
+<span class="skema-taeller figur">11 of 14 fields stated</span>
+
+</div>
+<table class="skema-tabel" role="table" aria-labelledby="skema-h">
+<caption class="skema-tabel__kap" role="caption">The letter points to the source at the foot of the page. Fields without a figure are dashed: the developer does not state them — that is not the same as zero, and not the same as no.</caption>
+<thead role="rowgroup"><tr role="row">
+<th scope="col" role="columnheader">Field</th>
+<th scope="col" role="columnheader">Value</th>
+<th scope="col" role="columnheader">Source and caveats</th>
+</tr></thead>
+<tbody class="skema-gruppe" role="rowgroup">
+<tr class="skema-gruppenavn" role="row"><th scope="rowgroup" colspan="3" role="rowheader">Release</th></tr>
+<tr role="row"><th scope="row" role="rowheader">Released</th><td class="skema-v" role="cell"><span class="v v-tekst">22 January 2026</span></td><td class="skema-k" role="cell"><p class="feltnote">[A] &quot;[Submitted on 22 Jan <span class="advarsel-hale">2026]&quot; ⁠<a class="kildemaerke" href="#kilde-B" aria-label="Source B" title="Primary source.">B</a></span></p></td></tr>
+</tbody>
+<tbody class="skema-gruppe" role="rowgroup">
+<tr class="skema-gruppenavn" role="row"><th scope="rowgroup" colspan="3" role="rowheader">Input and output</th></tr>
+<tr class="uoplyst" role="row"><th scope="row" role="rowheader">Model type</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"><p class="advarsel advarsel--uddybning"><b class="advarsel-navn">Note</b> <span>The developer does not label it vision-language-action, world action model or embodied reasoning: &quot;is a 2B-parameter bimanual robot manipulation policy model fine-tuned from the NVIDIA Cosmos-Predict2-2B-Video2World video foundation <span class="advarsel-hale">model.&quot;. ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A" title="Primary source.">A</a></span></span></p></td></tr>
+<tr role="row"><th scope="row" role="rowheader">Inputs</th><td class="skema-v" role="cell"><span class="v v-liste"><code>camera</code> <code>language</code> <code>robot state</code></span></td><td class="skema-k" role="cell"><p class="feltnote">Model card (ALOHA checkpoint): &quot;Input Type(s) : Text + Multi-view Images + Proprioceptive <span class="advarsel-hale">State&quot; ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A" title="Primary source.">A</a></span></p></td></tr>
+<tr role="row"><th scope="row" role="rowheader">Controls</th><td class="skema-v" role="cell"><span class="v v-liste"><code>arms and hands</code></span></td><td class="skema-k" role="cell"><p class="feltnote">Model card (ALOHA checkpoint): &quot;Action chunk: 50-timestep sequence of 14-dimensional actions (7 per arm: joint positions for 6 joints + 1 <span class="advarsel-hale">gripper)&quot; ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A" title="Primary source.">A</a></span></p></td></tr>
+<tr class="uoplyst" role="row"><th scope="row" role="rowheader">Degrees of freedom controlled</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"><p class="advarsel advarsel--uddybning"><b class="advarsel-navn">Note</b> <span>Action size for the ALOHA 2 robot with two ViperX 300 S arms: &quot;Action chunk: 50-timestep sequence of 14-dimensional actions (7 per arm: joint positions for 6 joints + 1 <span class="advarsel-hale">gripper)&quot; ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A" title="Primary source.">A</a></span></span></p></td></tr>
+</tbody>
+<tbody class="skema-gruppe" role="rowgroup">
+<tr class="skema-gruppenavn" role="row"><th scope="rowgroup" colspan="3" role="rowheader">Size and speed</th></tr>
+<tr role="row"><th scope="row" role="rowheader">Parameters</th><td class="skema-v" role="cell"><span class="v v-tal"><b class="num">2B</b></span></td><td class="skema-k" role="cell"><p class="feltnote">Model card: &quot;2B (inherited from base <span class="advarsel-hale">model)&quot; ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A" title="Primary source.">A</a></span></p></td></tr>
+<tr role="row"><th scope="row" role="rowheader">Control rate</th><td class="skema-v" role="cell"><span class="v v-tal"><b class="num">25</b><span class="enhed">Hz</span></span></td><td class="skema-k" role="cell"><p class="feltnote">Rate of the robot&#39;s actions (ALOHA checkpoint): &quot;Control frequency: 25 Hz (reduced from original 50 <span class="advarsel-hale">Hz)&quot; ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A" title="Primary source.">A</a></span></p></td></tr>
+</tbody>
+<tbody class="skema-gruppe" role="rowgroup">
+<tr class="skema-gruppenavn" role="row"><th scope="rowgroup" colspan="3" role="rowheader">Where it runs and what it is built on</th></tr>
+<tr class="uoplyst" role="row"><th scope="row" role="rowheader">On robot or cloud</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"></td></tr>
+<tr role="row"><th scope="row" role="rowheader">Base model</th><td class="skema-v" role="cell"><span class="v v-tekst">NVIDIA Cosmos-Predict2-2B-Video2World</span></td><td class="skema-k" role="cell"><p class="feltnote">&quot;Base model : NVIDIA <span class="advarsel-hale">Cosmos-Predict2-2B-Video2World&quot; ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A" title="Primary source.">A</a></span></p></td></tr>
+</tbody>
+<tbody class="skema-gruppe" role="rowgroup">
+<tr class="skema-gruppenavn" role="row"><th scope="rowgroup" colspan="3" role="rowheader">Openness</th></tr>
+<tr role="row"><th scope="row" role="rowheader">Access</th><td class="skema-v" role="cell"><a href="https://arxiv.org/abs/2601.16163" rel="nofollow noopener external"><span class="v v-tekst">open download</span></a></td><td class="skema-k" role="cell"><p class="feltnote">Paper abstract: &quot;We release code, models, and training data&quot;. &quot;Hugging Face [01/22/2026] via <span class="advarsel-hale">https://huggingface.co/collections/nvidia/cosmos-policy&quot; ⁠<a class="kildemaerke" href="#kilde-B" aria-label="Source B" title="Primary source.">B</a></span></p></td></tr>
+<tr role="row"><th scope="row" role="rowheader">License</th><td class="skema-v" role="cell"><span class="v v-tekst">NVIDIA One-Way Noncommercial License (NSCLv1)</span></td><td class="skema-k" role="cell"><p class="feltnote">Model weights: &quot;This model is released under the NVIDIA One-Way Noncommercial License (NSCLv1)&quot;; &quot;Models are not for commercial use.&quot; The code repository carries a separate licence: &quot;Apache License Version 2.0, January <span class="advarsel-hale">2004&quot;. ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A" title="Primary source.">A</a></span></p></td></tr>
+<tr role="row"><th scope="row" role="rowheader">Free or paid</th><td class="skema-v" role="cell"><span class="v v-tekst">Open weights, non-commercial</span></td><td class="skema-k" role="cell"><p class="feltnote">Developer wording: &quot;Models are not for commercial <span class="advarsel-hale">use.&quot; ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A" title="Primary source.">A</a></span></p></td></tr>
+</tbody>
+<tbody class="skema-gruppe" role="rowgroup">
+<tr class="skema-gruppenavn" role="row"><th scope="rowgroup" colspan="3" role="rowheader">The developer’s own claims</th></tr>
+<tr role="row"><th scope="row" role="rowheader">Learns new tasks</th><td class="skema-v" role="cell"><span class="v v-tekst">needs retraining</span></td><td class="skema-k" role="cell"><p class="feltnote">Developer wording: &quot;we introduce Cosmos Policy, a simple approach for adapting a large pretrained video model (Cosmos-Predict2) into an effective robot policy through a single stage of post-training on the robot demonstration data collected on the target platform, with no architectural <span class="advarsel-hale">modifications.&quot; ⁠<a class="kildemaerke" href="#kilde-B" aria-label="Source B" title="Primary source.">B</a></span></p></td></tr>
+<tr role="row"><th scope="row" role="rowheader">Works across robots</th><td class="skema-v" role="cell"><span class="v v-nej"><i class="mrk"></i>no</span></td><td class="skema-k" role="cell"><p class="feltnote">Model card for the ALOHA checkpoint: &quot;Trained exclusively for ALOHA 2 robot platform with two ViperX 300 S robot <span class="advarsel-hale">arms&quot; ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A" title="Primary source.">A</a></span></p><p class="feltnote">Yes only if the developer itself says the model runs on different robot models, for example robots from two manufacturers or two of one manufacturer’s models. Several units of the same robot do not count.</p></td></tr>
+</tbody>
+</table>
+<details class="stribe-under-fold">
+<summary>How to read the figures</summary>
+<dl class="kodenoegle">
+<div><dt><span class="v v-tal"><b class="num">50</b><span class="enhed">Hz</span><a class="kildemaerke" href="#kilder" aria-label="Source A" tabindex="-1">A</a></span></dt><dd>The letter in the grey square after a figure points to the source the figure came from. Pages with several sources carry several letters.</dd></div>
+</dl>
+<p class="t-mikro kodenoegle__link"><a class="kodenoegle__a" href="../../about/#om-h-tilstande">What the data labels mean</a></p>
+</details>
+</section>
+<section class="sektion noter-blok" aria-labelledby="noter-h">
+<div class="sektion-hoved"><h2 class="etiket etiket--blaek" id="noter-h">Notes</h2></div>
+<ul class="noter"><li>NVIDIA Research adapts a pretrained video model (Cosmos-Predict2, not Cosmos 3) into a robot policy in a single post-training step; the policy also predicts future states and the value of a state.</li><li>NVIDIA released the code and models on 22 January 2026; there are separate checkpoints for the LIBERO and RoboCasa simulations and for the ALOHA robot.</li></ul><details class="stribe-under-fold">
+<summary>Versions and notes in the key figures (7)</summary>
+<div class="stribe-under-krop">
+<div class="stribe-under"><p class="etiket">Model type</p><p class="advarsel advarsel--uddybning"><b class="advarsel-navn">Note</b> <span>The developer does not label it vision-language-action, world action model or embodied reasoning: &quot;is a 2B-parameter bimanual robot manipulation policy model fine-tuned from the NVIDIA Cosmos-Predict2-2B-Video2World video foundation model.&quot;.</span></p></div>
+<div class="stribe-under"><p class="etiket">Controls</p><p class="feltnote">Model card (ALOHA checkpoint): &quot;Action chunk: 50-timestep sequence of 14-dimensional actions (7 per arm: joint positions for 6 joints + 1 gripper)&quot;</p></div>
+<div class="stribe-under"><p class="etiket">Inputs</p><p class="feltnote">Model card (ALOHA checkpoint): &quot;Input Type(s) : Text + Multi-view Images + Proprioceptive State&quot;</p></div>
+<div class="stribe-under"><p class="etiket">Access</p><p class="feltnote">Paper abstract: &quot;We release code, models, and training data&quot;. &quot;Hugging Face [01/22/2026] via https://huggingface.co/collections/nvidia/cosmos-policy&quot;</p></div>
+<div class="stribe-under"><p class="etiket">Parameters</p><p class="feltnote">Model card: &quot;2B (inherited from base model)&quot;</p></div>
+<div class="stribe-under"><p class="etiket">Base model</p><p class="feltnote">&quot;Base model : NVIDIA Cosmos-Predict2-2B-Video2World&quot;</p></div>
+<div class="stribe-under"><p class="etiket">Free or paid</p><p class="feltnote">Developer wording: &quot;Models are not for commercial use.&quot;</p></div>
+</div>
+</details>
+</section>
+<section class="sektion kilder" id="kilder" aria-labelledby="kilder-h">
+<div class="sektion-hoved"><h2 class="etiket etiket--blaek" id="kilder-h">Sources</h2></div>
+<ul class="kildeliste">
+<li id="kilde-A">
+<span class="bogstav">A</span>
+<span><a class="url" href="https://huggingface.co/nvidia/Cosmos-Policy-ALOHA-Predict2-2B" rel="nofollow noopener external">huggingface.<wbr>co/<wbr>nvidia/<wbr>Cosmos-Policy-ALOHA-Predict2-2B</a> <span class="dato">· Retrieved <time datetime="2026-10-14">2026-10-14</time></span></span>
+</li>
+<li id="kilde-B">
+<span class="bogstav">B</span>
+<span><a class="url" href="https://arxiv.org/abs/2601.16163" rel="nofollow noopener external">arxiv.<wbr>org/<wbr>abs/<wbr>2601.<wbr>16163</a> <span class="dato">· Retrieved <time datetime="2026-10-14">2026-10-14</time></span></span>
+</li>
+</ul>
+<p class="t-mikro maal">One line per source, not per figure: a source has one retrieval date. The letter beside a figure points to the line it came from.</p>
+</section>
+</article>
+</div>
+</main>
+
+<footer class="sidefod">
+<div class="rum sidefod__ramme">
+<p class="sidefod__haard">We do not resell any robot on this site, and we take no payment from the manufacturers.</p>
+<div class="sidefod__loefter">
+<p class="sidefod__broed">Every figure in the catalogue has a source and a retrieval date. If the manufacturer does not state it, the field becomes not stated — it never becomes an estimate.</p>
+</div>
+<p class="sidefod__mark">
+<span class="sidefod__udgiver">Published by KeyResearch</span>
+<a class="sidefod__link" href="../../about/">About this publication</a>
+</p>
+</div>
+</footer>
+
+</body>
+</html>
