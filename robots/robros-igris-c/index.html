@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IGRIS-C — ROBROS · embodied.guide</title>
+<meta name="description" content="IGRIS-C is a humanoid robot from ROBROS (South Korea). Status: in production. Weight 56 kg, height 154 cm.">
+<link rel="canonical" href="https://embodied.guide/robots/robros-igris-c/">
+<link rel="alternate" hreflang="en" href="https://embodied.guide/robots/robros-igris-c/">
+<link rel="alternate" hreflang="x-default" href="https://embodied.guide/robots/robros-igris-c/">
+<meta name="theme-color" content="#FAFBFB">
+<link rel="icon" href="../../billeder/ikoner/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../billeder/ikoner/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="embodied.guide">
+<meta property="og:title" content="IGRIS-C — ROBROS · embodied.guide">
+<meta property="og:description" content="IGRIS-C is a humanoid robot from ROBROS (South Korea). Status: in production. Weight 56 kg, height 154 cm.">
+<meta property="og:url" content="https://embodied.guide/robots/robros-igris-c/">
+<meta property="og:image" content="https://embodied.guide/billeder/fotos/fabrikant/humanoid/robros-igris-c.png">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../../system.css">
+<link rel="stylesheet" href="../../generator.css">
+
+</head>
+<body>
+<a class="spring" href="#hoved">Skip to content</a>
+<div class="samtykke" id="samtykke" role="region" aria-label="Analytics choice" hidden>
+<p class="samtykke__tekst">May we measure visits with Google Analytics? It sets no cookies until you accept.</p>
+<div class="samtykke__valg"><button type="button" class="knap knap--fyldt" data-samtykke="ja">Accept</button><button type="button" class="knap knap--fyldt" data-samtykke="nej">Decline</button></div>
+</div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+<symbol id="i-vaegt" viewBox="0 0 24 24"><path d="M9.4 8a2.6 2.6 0 0 1 5.2 0"/><path d="M7 8h10l1.9 11.4a1.4 1.4 0 0 1-1.4 1.6H6.5a1.4 1.4 0 0 1-1.4-1.6Z"/></symbol>
+<symbol id="i-nyttelast" viewBox="0 0 24 24"><path d="M12 3v4.6"/><path d="M9.7 5.4 12 7.7l2.3-2.3"/><path d="M7.5 10.2h9v8.3h-9z"/><path d="M3.4 21h17.2"/></symbol>
+<symbol id="i-driftstid" viewBox="0 0 24 24"><path d="M3.6 8.2h12.9a1.6 1.6 0 0 1 1.6 1.6v4.4a1.6 1.6 0 0 1-1.6 1.6H3.6A1.6 1.6 0 0 1 2 14.2V9.8a1.6 1.6 0 0 1 1.6-1.6Z"/><path d="M20.8 10.9v2.2"/><path d="M4.9 10.9h4.3v2.2H4.9z"/></symbol>
+<symbol id="i-fart" viewBox="0 0 24 24"><path d="M3.6 17.4a8.8 8.8 0 1 1 16.8 0"/><path d="M12 17.4 16.4 10.6"/><circle cx="12" cy="17.4" r="1.35"/></symbol>
+<symbol id="i-ip" viewBox="0 0 24 24"><path d="M12 2.7 5.6 5.3v6c0 4.1 2.7 7.3 6.4 8.4 3.7-1.1 6.4-4.3 6.4-8.4v-6Z"/><path d="M12 8.9c-1.4 1.8-2.2 2.9-2.2 4a2.2 2.2 0 0 0 4.4 0c0-1.1-.8-2.2-2.2-4Z"/></symbol>
+<symbol id="i-ce" viewBox="0 0 24 24"><path d="M6 2.9h7.3L18 7.7v13.4H6z"/><path d="M13.3 2.9v4.8H18"/><path d="M9 13.1h6"/><path d="M9 16.5h4"/></symbol>
+<symbol id="i-ai-model" viewBox="0 0 24 24"><path d="M7 7h10v10H7z"/><path d="M10 10.2h4v3.6h-4z"/><path d="M10 3.5V7"/><path d="M14 3.5V7"/><path d="M10 17v3.5"/><path d="M14 17v3.5"/><path d="M3.5 10H7"/><path d="M3.5 14H7"/><path d="M17 10h3.5"/><path d="M17 14h3.5"/></symbol>
+<symbol id="i-hul" viewBox="0 0 24 24"><path d="M4.4 4.4h15.2v15.2H4.4z" stroke-dasharray="3.2 3.2"/></symbol>
+<symbol id="i-pil" viewBox="0 0 24 24"><path d="M4 12h15"/><path d="M13.4 6.4 19 12l-5.6 5.6"/></symbol>
+<symbol id="i-ja" viewBox="0 0 24 24"><path d="M4.4 4.4h15.2v15.2H4.4z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-nej" viewBox="0 0 24 24"><path d="M4.4 4.4h15.2v15.2H4.4z"/><path d="M5.8 5.8 18.2 18.2"/></symbol>
+<symbol id="i-nul" viewBox="0 0 24 24"><path d="M4.4 4.4h15.2v15.2H4.4z"/><circle cx="12" cy="12" r="2.6" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-ioplyst" viewBox="0 0 24 24"><path d="M4.4 4.4h15.2v15.2H4.4z" stroke-dasharray="3.2 3.2"/></symbol>
+</svg>
+<header class="daek">
+<div class="daek__ramme rum">
+<div class="daek__mark">
+<a class="daek__navn" href="../../">embodied.guide</a>
+</div>
+<nav class="daek__nav" aria-label="Site sections">
+<ul>
+<li><a href="../../humanoids/" data-klasse="humanoid" aria-current="true">Humanoids</a></li>
+<li><a href="../../quadrupeds/" data-klasse="quadruped">Quadrupeds</a></li>
+<li><a href="../../ai-models/" data-klasse="ai_model">Robot AI models</a></li>
+<li><a href="../../manufacturers/">Manufacturers</a></li>
+<li><a href="../../about/">About us</a></li>
+</ul>
+</nav>
+<p class="daek__enhed"><label class="enhedsskift" for="enhedsskift"><span class="enhedsskift__ord enhedsskift__ord--metrisk" aria-hidden="true">Metric</span><span class="enhedsskift__ord enhedsskift__ord--imperial">Imperial</span></label></p>
+</div>
+</header>
+<main class="side" id="hoved" data-sidens-klasse="humanoid">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+<symbol id="i-pris" viewBox="0 0 24 24"><path d="M20.6 13 13 5.4a2 2 0 0 0-1.4-.6H4a2 2 0 0 0-2 2v7.6a2 2 0 0 0 .6 1.4l7.6 7.6a2 2 0 0 0 2.8 0l7.6-7.6a2 2 0 0 0 0-2.8Z"/><circle cx="7.5" cy="7.5" r="1.5"/></symbol>
+</svg>
+<div class="rum">
+<div class="robotsti"><nav class="brodkrumme" aria-label="Breadcrumb"><ol><li><a href="../../humanoids/">Humanoids</a></li><li><a href="../../manufacturers/robros/" translate="no">ROBROS</a></li><li aria-current="page" translate="no">IGRIS-C</li></ol></nav><a class="knap knap--kant robotsti__saml" href="../../compare/#robros-igris-c" data-saml="robros-igris-c" data-saml-klasse="humanoid" data-saml-maks="3">Compare</a></div><p class="t-mikro" role="status" data-saml-graense data-tekst="Not added — you can compare 3 robots at a time. Open the comparison to remove one." hidden></p>
+<script>(function(){var a=document.querySelector("a[data-saml]");if(!a)return;var k="quad-sammenligning:"+a.getAttribute("data-saml-klasse"),s=a.getAttribute("data-saml"),m=+a.getAttribute("data-saml-maks"),b=document.querySelector("[data-saml-graense]");a.addEventListener("click",function(e){if(e.defaultPrevented||e.button||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;var l=[];try{l=JSON.parse(localStorage.getItem(k))||[]}catch(x){}if(Object.prototype.toString.call(l)!=="[object Array]")l=[];l=l.filter(function(v){return typeof v==="string"&&v});if(l.indexOf(s)<0){if(l.length>=m){e.preventDefault();b.textContent=b.getAttribute("data-tekst");b.hidden=false;return}l.push(s);try{localStorage.setItem(k,JSON.stringify(l))}catch(x){}}a.href=a.getAttribute("href").split("#")[0]+"#"+l.join(",")})})()</script>
+
+<article class="robotside typeskilt">
+<input type="checkbox" id="enhedsskift" class="kunskaerm enhedsskift__boks">
+<script src="../../enhed.js"></script>
+<input type="checkbox" id="skjul-tomme" class="kunskaerm skjul__boks" tabindex="-1" aria-hidden="true">
+<header class="robot-top">
+<div class="robot-navn modeltop">
+<div class="modeltop__venstre">
+<p class="kort-ophav"><a class="prod" translate="no" href="../../manufacturers/robros/">ROBROS</a><span class="land">South Korea</span></p>
+<h1 class="t-h1" translate="no">IGRIS-C</h1>
+
+<ul class="maerker skiltlinje"><li class="maerke maerke--status maerke--drift">In production</li><li class="maerke anvendelse__maerke--industri">Industry</li><li class="maerke anvendelse__maerke--forskning_udvikling">Research and development</li><li class="maerke anvendelse__maerke--forbruger_uddannelse">Consumer and education</li><li class="maerke anvendelse__maerke--logistik">Logistics</li></ul>
+
+</div>
+<div class="modeltop__hoejre">
+<div class="topfelt__logoplads"><img class="topfelt__logo" src="../../billeder/logoer/robros.png" alt="" decoding="async"></div>
+<p><a class="variantnavn koblingsmaerke" href="https://www.robros.co.kr/en/igrisc" rel="nofollow noopener external" translate="no">Visit website<svg class="ikon" aria-hidden="true"><use href="#i-pil"/></svg></a></p>
+</div>
+</div>
+<div class="robot-panel">
+<figure class="robot-foto">
+<div class="billedled billedled--stor billedled--plade">
+<picture>
+<source srcset="../../billeder/fotos/fabrikant/humanoid/robros-igris-c-240w.avif 240w, ../../billeder/fotos/fabrikant/humanoid/robros-igris-c-560w.avif 560w, ../../billeder/fotos/fabrikant/humanoid/robros-igris-c-840w.avif 840w, ../../billeder/fotos/fabrikant/humanoid/robros-igris-c-1400w.avif 1400w" sizes="(max-width: 860px) 94vw, 48vw" type="image/avif">
+<source srcset="../../billeder/fotos/fabrikant/humanoid/robros-igris-c-240w.webp 240w, ../../billeder/fotos/fabrikant/humanoid/robros-igris-c-560w.webp 560w, ../../billeder/fotos/fabrikant/humanoid/robros-igris-c-840w.webp 840w, ../../billeder/fotos/fabrikant/humanoid/robros-igris-c-1400w.webp 1400w" sizes="(max-width: 860px) 94vw, 48vw" type="image/webp">
+<img src="../../billeder/fotos/fabrikant/humanoid/robros-igris-c.png" alt="ROBROS IGRIS-C, silver bipedal humanoid with a square head, seen from the front, manufacturer image" fetchpriority="high" decoding="async">
+</picture>
+</div>
+<figcaption class="billedfod"><p><i class="prik"></i>Manufacturer&#39;s own photo.</p></figcaption>
+</figure>
+<div class="robot-noegletal">
+<section class="sektion" aria-labelledby="noegletal-h">
+<div class="stribe-hylster">
+<div class="stribe-hoved">
+<h2 class="etiket etiket--blaek" id="noegletal-h">Key figures as stated by the manufacturer</h2>
+<span class="stribe-taeller"><b>1 of 6 key figures stated</b></span>
+<label class="enhedsskift" for="enhedsskift"><span class="enhedsskift__spor" aria-hidden="true"><span class="enhedsskift__knop"></span></span><span class="enhedsskift__ord enhedsvis enhedsvis--metrisk">Imperial</span><span class="enhedsskift__ord enhedsvis enhedsvis--imperial">Metric</span></label>
+</div>
+<ul class="stribe stribe--seks stribe--model stribe--k1">
+<li><svg class="ikon" aria-hidden="true"><use href="#i-vaegt"/></svg><span class="krop">
+<span class="etiket"><span class="advarsel-hale">Weight ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A: robros.co.kr, retrieved 2026-09-29" title="robros.co.kr, retrieved 2026-09-29">A</a></span></span>
+<span class="feltvaerdi"><span class="enhedsvis enhedsvis--metrisk"><span class="v v-tal"><b class="num">56</b><span class="enhed">kg</span></span></span><span class="enhedsvis enhedsvis--imperial"><span class="v v-tal"><b class="num">123</b><span class="enhed">lb</span></span><span class="kunskaerm">Our conversion from 56 kg. The manufacturer does not state an imperial figure itself, so the conversion has no source of its own.</span></span></span></span></li>
+</ul>
+<p class="skema__savn stribe__savn">Not stated: Payload, walking · Runtime · Max speed · AI model · Indicative price</p>
+</div>
+</section>
+</div>
+<section class="sektion anvendelse" aria-labelledby="anvendelse-h">
+<div class="sektion-hoved"><h2 class="etiket etiket--blaek" id="anvendelse-h">Intended use, per the manufacturer</h2></div>
+<blockquote class="anvendelse-citat">
+<p class="etiket">The manufacturer’s <span class="advarsel-hale">words ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A: robros.co.kr, retrieved 2026-09-29" title="robros.co.kr, retrieved 2026-09-29">A</a></span></p>
+<p class="maal">a versatile platform for research, testing, and education</p>
+<p class="maal">In environments where repetitive movement and transport occur, we think about how robots can contribute to the speed and flow of logistics.</p>
+<p class="maal">In environments with frequent movement of boxes and materials, we handle pick &amp; place tasks considering space and traffic flow.</p>
+</blockquote>
+
+
+</section>
+</div>
+</header>
+<section class="sektion skema" id="skema" aria-labelledby="skema-h">
+<div class="skema__hoved">
+<h2 class="etiket etiket--blaek" id="skema-h">Full specifications</h2>
+<span class="skema-taeller figur">5 of 33 specifications stated</span>
+<span class="skjul-valg" role="group" aria-controls="skema" aria-label="Rows shown in the full specifications"><button type="button" class="knap knap--tekst skjul-valg__knap" data-skjul="0" aria-pressed="true">All rows</button><button type="button" class="knap knap--tekst skjul-valg__knap" data-skjul="1" aria-pressed="false">Stated only (5)</button></span><label class="enhedsskift" for="enhedsskift"><span class="enhedsskift__spor" aria-hidden="true"><span class="enhedsskift__knop"></span></span><span class="enhedsskift__ord enhedsvis enhedsvis--metrisk">Imperial</span><span class="enhedsskift__ord enhedsvis enhedsvis--imperial">Metric</span></label>
+</div>
+<table class="skema-tabel" role="table" aria-labelledby="skema-h">
+<caption class="skema-tabel__kap" role="caption">The letter points to the source at the foot of the page. Fields without a figure are dashed: the manufacturer does not state them — that is not the same as zero, and not the same as no.</caption>
+<thead role="rowgroup"><tr role="row">
+<th scope="col" role="columnheader">Field</th>
+<th scope="col" role="columnheader">Value</th>
+<th scope="col" role="columnheader">Source and caveats</th>
+</tr></thead>
+<tbody class="skema-gruppe" role="rowgroup">
+<tr class="skema-gruppenavn" role="row"><th scope="rowgroup" colspan="3" role="rowheader">Physical</th></tr>
+<tr role="row" id="felt-egenvaegt"><th scope="row" role="rowheader">Weight</th><td class="skema-v" role="cell"><span class="enhedsvis enhedsvis--metrisk"><span class="v v-tal"><b class="num">56</b><span class="enhed">kg</span></span></span><span class="enhedsvis enhedsvis--imperial"><span class="v v-tal"><b class="num">123</b><span class="enhed">lb</span></span><span class="kunskaerm">Our conversion from 56 kg. The manufacturer does not state an imperial figure itself, so the conversion has no source of its own.</span></span></td><td class="skema-k" role="cell"><p class="advarsel advarsel--uddybning"><b class="advarsel-navn">Note</b> <span>Dimensions &amp; Power <span class="advarsel-hale">section. ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A: robros.co.kr, retrieved 2026-09-29" title="robros.co.kr, retrieved 2026-09-29">A</a></span></span></p></td></tr>
+<tr class="uoplyst" role="row" id="felt-laengde"><th scope="row" role="rowheader">Depth (front to back)</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"></td></tr>
+<tr class="uoplyst" role="row" id="felt-bredde"><th scope="row" role="rowheader">Width</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"></td></tr>
+<tr role="row" id="felt-hoejde"><th scope="row" role="rowheader" class="m-etiket">Height</th><td class="skema-v" role="cell"><span class="enhedsvis enhedsvis--metrisk"><span class="v v-tal"><b class="num">154</b><span class="enhed">cm</span></span></span><span class="enhedsvis enhedsvis--imperial"><span class="v v-tal"><b class="num">60.6</b><span class="enhed">in</span></span><span class="kunskaerm">Our conversion from 154 cm. The manufacturer does not state an imperial figure itself, so the conversion has no source of its own.</span></span></td><td class="skema-k" role="cell"><p class="advarsel advarsel--gyldighed"><b class="advarsel-navn">Caveat</b> <span>Dimensions &amp; Power section. The page does not say in which posture the robot is <span class="advarsel-hale">measured. ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A: robros.co.kr, retrieved 2026-09-29" title="robros.co.kr, retrieved 2026-09-29">A</a></span></span></p></td></tr>
+<tr class="uoplyst" role="row" id="felt-frihedsgrader"><th scope="row" role="rowheader">Degrees of freedom</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"><p class="advarsel advarsel--uddybning"><b class="advarsel-navn">Note</b> <span>The page lists hands 6 DoF x 2, arms 7 DoF x 2, neck 2 DoF, waist 3 DoF and legs 6 DoF x 2, and gives no <span class="advarsel-hale">total. ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A: robros.co.kr, retrieved 2026-09-29" title="robros.co.kr, retrieved 2026-09-29">A</a></span></span></p><input type="checkbox" class="foldmere" aria-label="Show the full note" data-mere="more" data-mindre="less"></td></tr>
+<tr class="uoplyst" role="row" id="felt-nyttelast_gaaende"><th scope="row" role="rowheader">Payload, walking</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"></td></tr>
+<tr class="uoplyst" role="row" id="felt-nyttelast_staaende"><th scope="row" role="rowheader">Payload, standing</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"></td></tr>
+<tr class="uoplyst" role="row" id="felt-hastighed"><th scope="row" role="rowheader">Max speed</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"></td></tr>
+<tr class="uoplyst" role="row" id="felt-haeldning"><th scope="row" role="rowheader">Max slope</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"><p class="advarsel advarsel--uddybning"><b class="advarsel-navn">Note</b> <span>The page says the robot navigates slopes and stairs and gives no <span class="advarsel-hale">incline. ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A: robros.co.kr, retrieved 2026-09-29" title="robros.co.kr, retrieved 2026-09-29">A</a></span></span></p><input type="checkbox" class="foldmere" aria-label="Show the full note" data-mere="more" data-mindre="less"></td></tr>
+<tr class="uoplyst" role="row" id="felt-forhindring_enkelt"><th scope="row" role="rowheader">Max obstacle height</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"></td></tr>
+<tr class="uoplyst" role="row" id="felt-trappetrin_kontinuerlig"><th scope="row" role="rowheader">Max stair height, continuous</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"><p class="advarsel advarsel--uddybning"><b class="advarsel-navn">Note</b> <span>The page says the robot navigates slopes and stairs and gives no step <span class="advarsel-hale">height. ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A: robros.co.kr, retrieved 2026-09-29" title="robros.co.kr, retrieved 2026-09-29">A</a></span></span></p><input type="checkbox" class="foldmere" aria-label="Show the full note" data-mere="more" data-mindre="less"></td></tr>
+<tr class="uoplyst" role="row" id="felt-ip_klasse"><th scope="row" role="rowheader">IP rating</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"></td></tr>
+<tr class="uoplyst" role="row" id="felt-temp_min"><th scope="row" role="rowheader">Operating temperature, low</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"></td></tr>
+<tr class="uoplyst" role="row" id="felt-temp_maks"><th scope="row" role="rowheader">Operating temperature, high</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"></td></tr>
+</tbody>
+<tbody class="skema-gruppe" role="rowgroup">
+<tr class="skema-gruppenavn" role="row"><th scope="rowgroup" colspan="3" role="rowheader">Power</th></tr>
+<tr class="uoplyst" role="row" id="felt-batteri_wh"><th scope="row" role="rowheader">Battery</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"><p class="advarsel advarsel--uddybning"><b class="advarsel-navn">Note</b> <span>The table gives the capacity as 17,000mAh at 48V and no energy <span class="advarsel-hale">figure. ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A: robros.co.kr, retrieved 2026-09-29" title="robros.co.kr, retrieved 2026-09-29">A</a></span></span></p><input type="checkbox" class="foldmere" aria-label="Show the full note" data-mere="more" data-mindre="less"></td></tr>
+<tr class="uoplyst" role="row" id="felt-driftstid"><th scope="row" role="rowheader">Runtime</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"></td></tr>
+<tr class="uoplyst" role="row" id="felt-hot_swap"><th scope="row" role="rowheader">Hot-swap battery</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"></td></tr>
+<tr role="row" id="felt-ladetid"><th scope="row" role="rowheader">Charge time</th><td class="skema-v" role="cell"><span class="original-enhed" title="The manufacturer wrote: 2.5 h. We show the figure in the site’s shared unit."><span class="v v-tal"><b class="num">150</b><span class="enhed">min</span></span></span></td><td class="skema-k" role="cell"><p class="advarsel advarsel--uddybning"><b class="advarsel-navn">Note</b> <span>Dimensions &amp; Power <span class="advarsel-hale">section. ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A: robros.co.kr, retrieved 2026-09-29" title="robros.co.kr, retrieved 2026-09-29">A</a></span></span></p></td></tr>
+<tr class="uoplyst" role="row" id="felt-dockingstation"><th scope="row" role="rowheader">Docking station</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"><p class="advarsel advarsel--uddybning"><b class="advarsel-navn">Note</b> <span>The table gives the recharge method as “Direct <span class="advarsel-hale">charge”. ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A: robros.co.kr, retrieved 2026-09-29" title="robros.co.kr, retrieved 2026-09-29">A</a></span></span></p></td></tr>
+</tbody>
+<tbody class="skema-gruppe" role="rowgroup">
+<tr class="skema-gruppenavn" role="row"><th scope="rowgroup" colspan="3" role="rowheader">Sensing and autonomy</th></tr>
+<tr class="uoplyst" role="row" id="felt-lidar"><th scope="row" role="rowheader">LiDAR</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"></td></tr>
+<tr role="row" id="felt-kameraer"><th scope="row" role="rowheader">Cameras</th><td class="skema-v" role="cell"><span class="v v-tekst">RGB stereo camera and depth camera.</span></td><td class="skema-k" role="cell"><p class="advarsel advarsel--uddybning"><b class="advarsel-navn">Note</b> <span>Perception section. The sensors row adds a 6-axis IMU and <span class="advarsel-hale">encoders. ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A: robros.co.kr, retrieved 2026-09-29" title="robros.co.kr, retrieved 2026-09-29">A</a></span></span></p><input type="checkbox" class="foldmere" aria-label="Show the full note" data-mere="more" data-mindre="less"></td></tr>
+<tr class="uoplyst" role="row" id="felt-compute"><th scope="row" role="rowheader">Onboard compute</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"></td></tr>
+<tr class="uoplyst" role="row" id="felt-ros2"><th scope="row" role="rowheader">ROS 2</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"><p class="advarsel advarsel--uddybning"><b class="advarsel-navn">Note</b> <span>The table names Cyclone DDS as middleware and does not mention <span class="advarsel-hale">ROS. ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A: robros.co.kr, retrieved 2026-09-29" title="robros.co.kr, retrieved 2026-09-29">A</a></span></span></p><input type="checkbox" class="foldmere" aria-label="Show the full note" data-mere="more" data-mindre="less"></td></tr>
+<tr role="row" id="felt-sdk_sprog"><th scope="row" role="rowheader">SDK languages</th><td class="skema-v" role="cell"><span class="v v-liste"><code>C++</code> <code>Python</code></span></td><td class="skema-k" role="cell"><p class="advarsel advarsel--uddybning"><b class="advarsel-navn">Note</b> <span>The table lists C++ and Python <span class="advarsel-hale">APIs. ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A: robros.co.kr, retrieved 2026-09-29" title="robros.co.kr, retrieved 2026-09-29">A</a></span></span></p></td></tr>
+<tr class="uoplyst" role="row" id="felt-autonominiveau"><th scope="row" role="rowheader">Autonomy features</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"></td></tr>
+</tbody>
+<tbody class="skema-gruppe" role="rowgroup">
+<tr class="skema-gruppenavn" role="row"><th scope="rowgroup" colspan="3" role="rowheader">Payload and expansion</th></tr>
+<tr class="uoplyst" role="row" id="felt-monteringsinterface"><th scope="row" role="rowheader">Mounting interface</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"></td></tr>
+<tr class="uoplyst" role="row" id="felt-stroem_ud"><th scope="row" role="rowheader">Power out</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"></td></tr>
+<tr class="uoplyst" role="row" id="felt-dataporte"><th scope="row" role="rowheader">Data ports</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"><p class="advarsel advarsel--uddybning"><b class="advarsel-navn">Note</b> <span>The table lists Wi-Fi (AP) and BLE and no wired <span class="advarsel-hale">port. ⁠<a class="kildemaerke" href="#kilde-A" aria-label="Source A: robros.co.kr, retrieved 2026-09-29" title="robros.co.kr, retrieved 2026-09-29">A</a></span></span></p></td></tr>
+</tbody>
+<tbody class="skema-gruppe" role="rowgroup">
+<tr class="skema-gruppenavn" role="row"><th scope="rowgroup" colspan="3" role="rowheader">Commercial</th></tr>
+<tr class="uoplyst" role="row" id="felt-pris"><th scope="row" role="rowheader">Indicative price</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"></td></tr>
+</tbody>
+<tbody class="skema-gruppe" role="rowgroup">
+<tr class="skema-gruppenavn" role="row"><th scope="rowgroup" colspan="3" role="rowheader">Compliance &amp; certifications</th></tr>
+<tr class="uoplyst" role="row" id="felt-ce_oplyst"><th scope="row" role="rowheader">CE</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"><p class="feltnote feltnote--eu">Records only what the manufacturer states regarding CE marking.</p></td></tr>
+<tr class="uoplyst" role="row" id="felt-fcc_oplyst"><th scope="row" role="rowheader">FCC</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"></td></tr>
+<tr class="uoplyst" role="row" id="felt-ul_oplyst"><th scope="row" role="rowheader">UL</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"></td></tr>
+<tr class="uoplyst" role="row" id="felt-ccc_oplyst"><th scope="row" role="rowheader">CCC</th><td class="skema-v" role="cell"><span class="v v-ikke"><i class="mrk"></i>not stated</span></td><td class="skema-k" role="cell"></td></tr>
+</tbody>
+</table>
+<section class="saml-noegle" aria-labelledby="h-tegn">
+<details class="saml-noegle__fold">
+<summary class="saml-noegle__titel"><span class="saml-noegle__i" aria-hidden="true">i</span><span class="saml-noegle__navn" id="h-tegn">How to read the figures</span><span class="saml-noegle__vis"><span class="saml-noegle__vis-ord saml-noegle__vis-aaben">Show guide</span><span class="saml-noegle__vis-ord saml-noegle__vis-lukket">Hide guide</span></span></summary>
+<ul class="saml-noegle__raekke">
+<li class="saml-tegn"><span class="saml-tegn__mrk"><span class="saml-tegn__eks">Example</span><span class="enhedsvis enhedsvis--metrisk"><span class="v v-tal"><b class="num">14</b><span class="enhed">kg</span><a class="kildemaerke" href="#kilder" aria-label="Source A" tabindex="-1">A</a></span></span><span class="enhedsvis enhedsvis--imperial"><span class="v v-tal"><b class="num">30.9</b><span class="enhed">lb</span><a class="kildemaerke" href="#kilder" aria-label="Source A" tabindex="-1">A</a></span></span></span><span class="saml-tegn__tekst">The letter identifies the source of the figure.</span></li>
+<li class="saml-tegn"><span class="saml-tegn__mrk"><span class="saml-tegn__eks">Example</span><span class="etiket m-etiket">Payload, walking</span></span><span class="saml-tegn__tekst">A stroke before a field name marks a caveat, shown with the figure.</span></li>
+<li class="saml-tegn enhedsnote"><span class="saml-tegn__mrk"><span class="saml-tegn__eks">Example</span><span class="v v-tal"><b class="num">74.5</b><span class="enhed">lb</span></span></span><span class="saml-tegn__tekst">Imperial figures are converted by us unless the manufacturer states them. The source letter belongs to the metric figure.</span></li>
+</ul>
+</details>
+</section>
+</section>
+<section class="sektion noter-blok" aria-labelledby="noter-h">
+<div class="sektion-hoved"><h2 class="etiket etiket--blaek" id="noter-h">Notes</h2></div>
+<ul class="noter"><li>IGRIS-C is a 154 cm humanoid from ROBROS. It comes with a master-arm teleoperation device, a remote control app and a data platform for episode inspection and data labeling.</li><li>ROBROS&#39;s news page carries an Edaily article of August 19, 2026, which says “cumulative sales of IGRIS-C have risen from nine units to 18” and that the latest nine units were supplied under paid contracts.</li><li>The specification table gives the availability as “South Korea (Global inquiries welcomed)”.</li><li>The same article calls IGRIS-C a bipedal humanoid that “applies walking control technology that maintains balance even on slopes and stairs”.</li></ul><details class="stribe-under-fold">
+<summary>Notes and variants for the key figures (1)</summary>
+<div class="stribe-under-krop">
+<div class="stribe-under"><p class="etiket">Weight</p><p class="advarsel advarsel--uddybning"><b class="advarsel-navn">Note</b> <span>Dimensions &amp; Power section.</span></p></div>
+</div>
+</details>
+</section>
+<section class="sektion relaterede" aria-labelledby="relaterede-h">
+<div class="sektion-hoved"><h2 class="etiket etiket--blaek" id="relaterede-h">More robots</h2></div>
+<h3 class="etiket relaterede__gruppe">Same type and weight class</h3>
+<ul class="relaterede__liste">
+<li><a class="relkort" href="../../robots/limx-dynamics-luna/"><div class="relkort__foto"><div class="billedled billedled--plade">
+<picture>
+<source srcset="../../billeder/fotos/fabrikant/humanoid/limx-dynamics-luna-240w.avif 240w, ../../billeder/fotos/fabrikant/humanoid/limx-dynamics-luna-506w.avif 506w" sizes="(max-width: 719px) 46vw, (max-width: 1179px) 31vw, 200px" type="image/avif">
+<source srcset="../../billeder/fotos/fabrikant/humanoid/limx-dynamics-luna-240w.webp 240w, ../../billeder/fotos/fabrikant/humanoid/limx-dynamics-luna-506w.webp 506w" sizes="(max-width: 719px) 46vw, (max-width: 1179px) 31vw, 200px" type="image/webp">
+<img src="../../billeder/fotos/fabrikant/humanoid/limx-dynamics-luna.png" alt="" loading="lazy" decoding="async">
+</picture>
+</div></div><span class="relkort__navn" translate="no">Luna</span><span class="relkort__prod" translate="no">LimX Dynamics</span></a></li>
+<li><a class="relkort" href="../../robots/dreame-universal-humanoid/"><div class="relkort__foto"><div class="billedled billedled--plade">
+<picture>
+<source srcset="../../billeder/fotos/fabrikant/humanoid/dreame-universal-humanoid-240w.avif 240w, ../../billeder/fotos/fabrikant/humanoid/dreame-universal-humanoid-560w.avif 560w, ../../billeder/fotos/fabrikant/humanoid/dreame-universal-humanoid-664w.avif 664w" sizes="(max-width: 719px) 46vw, (max-width: 1179px) 31vw, 200px" type="image/avif">
+<source srcset="../../billeder/fotos/fabrikant/humanoid/dreame-universal-humanoid-240w.webp 240w, ../../billeder/fotos/fabrikant/humanoid/dreame-universal-humanoid-560w.webp 560w, ../../billeder/fotos/fabrikant/humanoid/dreame-universal-humanoid-664w.webp 664w" sizes="(max-width: 719px) 46vw, (max-width: 1179px) 31vw, 200px" type="image/webp">
+<img src="../../billeder/fotos/fabrikant/humanoid/dreame-universal-humanoid.png" alt="" loading="lazy" decoding="async">
+</picture>
+</div></div><span class="relkort__navn" translate="no">Universal Humanoid Robot</span><span class="relkort__prod" translate="no">Dreame Technology</span></a></li>
+<li><a class="relkort" href="../../robots/agibot-a3/"><div class="relkort__foto"><div class="billedled billedled--plade">
+<picture>
+<source srcset="../../billeder/fotos/fabrikant/humanoid/agibot-a3-240w.avif 240w, ../../billeder/fotos/fabrikant/humanoid/agibot-a3-364w.avif 364w" sizes="(max-width: 719px) 46vw, (max-width: 1179px) 31vw, 200px" type="image/avif">
+<source srcset="../../billeder/fotos/fabrikant/humanoid/agibot-a3-240w.webp 240w, ../../billeder/fotos/fabrikant/humanoid/agibot-a3-364w.webp 364w" sizes="(max-width: 719px) 46vw, (max-width: 1179px) 31vw, 200px" type="image/webp">
+<img src="../../billeder/fotos/fabrikant/humanoid/agibot-a3.png" alt="" loading="lazy" decoding="async">
+</picture>
+</div></div><span class="relkort__navn" translate="no">A3</span><span class="relkort__prod" translate="no">Agibot</span></a></li>
+<li><a class="relkort" href="../../robots/leju-robotics-kuavo-4pro/"><div class="relkort__foto"><div class="billedled billedled--plade">
+<picture>
+<source srcset="../../billeder/fotos/fabrikant/humanoid/leju-robotics-kuavo-4pro-240w.avif 240w, ../../billeder/fotos/fabrikant/humanoid/leju-robotics-kuavo-4pro-560w.avif 560w, ../../billeder/fotos/fabrikant/humanoid/leju-robotics-kuavo-4pro-840w.avif 840w, ../../billeder/fotos/fabrikant/humanoid/leju-robotics-kuavo-4pro-1301w.avif 1301w" sizes="(max-width: 719px) 46vw, (max-width: 1179px) 31vw, 200px" type="image/avif">
+<source srcset="../../billeder/fotos/fabrikant/humanoid/leju-robotics-kuavo-4pro-240w.webp 240w, ../../billeder/fotos/fabrikant/humanoid/leju-robotics-kuavo-4pro-560w.webp 560w, ../../billeder/fotos/fabrikant/humanoid/leju-robotics-kuavo-4pro-840w.webp 840w, ../../billeder/fotos/fabrikant/humanoid/leju-robotics-kuavo-4pro-1301w.webp 1301w" sizes="(max-width: 719px) 46vw, (max-width: 1179px) 31vw, 200px" type="image/webp">
+<img src="../../billeder/fotos/fabrikant/humanoid/leju-robotics-kuavo-4pro.png" alt="" loading="lazy" decoding="async">
+</picture>
+</div></div><span class="relkort__navn" translate="no">KUAVO 4Pro</span><span class="relkort__prod" translate="no">Leju Robotics</span></a></li>
+<li><a class="relkort" href="../../robots/lumos-robotics-lus2/"><div class="relkort__foto"><div class="billedled billedled--plade">
+<picture>
+<source srcset="../../billeder/fotos/fabrikant/humanoid/lumos-robotics-lus2-240w.avif 240w, ../../billeder/fotos/fabrikant/humanoid/lumos-robotics-lus2-560w.avif 560w, ../../billeder/fotos/fabrikant/humanoid/lumos-robotics-lus2-763w.avif 763w" sizes="(max-width: 719px) 46vw, (max-width: 1179px) 31vw, 200px" type="image/avif">
+<source srcset="../../billeder/fotos/fabrikant/humanoid/lumos-robotics-lus2-240w.webp 240w, ../../billeder/fotos/fabrikant/humanoid/lumos-robotics-lus2-560w.webp 560w, ../../billeder/fotos/fabrikant/humanoid/lumos-robotics-lus2-763w.webp 763w" sizes="(max-width: 719px) 46vw, (max-width: 1179px) 31vw, 200px" type="image/webp">
+<img src="../../billeder/fotos/fabrikant/humanoid/lumos-robotics-lus2.png" alt="" loading="lazy" decoding="async">
+</picture>
+</div></div><span class="relkort__navn" translate="no">LUS 2</span><span class="relkort__prod" translate="no">Lumos Robotics</span></a></li>
+<li><a class="relkort" href="../../robots/novax-robotics-mason-h1/"><div class="relkort__foto"><div class="billedled">
+<div class="intetfoto">
+<span class="plade" aria-hidden="true"></span>
+<span class="kunskaerm">No photograph. Mason-H1, NovaX Robotics.</span>
+</div>
+</div></div><span class="relkort__navn" translate="no">Mason-H1</span><span class="relkort__prod" translate="no">NovaX Robotics</span></a></li>
+</ul>
+</section>
+<section class="sektion kilder" id="kilder" aria-labelledby="kilder-h">
+<div class="sektion-hoved"><h2 class="etiket etiket--blaek" id="kilder-h">Sources</h2></div>
+<ul class="kildeliste">
+<li id="kilde-A">
+<span class="bogstav">A</span>
+<span><span class="hvad">Main source.</span> <a class="url" translate="no" href="https://www.robros.co.kr/en/igrisc" rel="nofollow noopener external">www.<wbr>robros.<wbr>co.<wbr>kr/<wbr>en/<wbr>igrisc</a> <span class="dato">· Retrieved <time datetime="2026-09-29">2026-09-29</time></span></span>
+</li>
+</ul>
+<p class="t-mikro maal">One line per source, not per figure: a source has one retrieval date.</p>
+<p class="t-mikro maal fejl-linje"><a href="../../about/#om-h-udgiver">Report an error or send an updated datasheet</a></p>
+</section>
+<script>(function(){var g=document.querySelector(".skjul-valg"),b=document.getElementById("skjul-tomme");if(!g||!b)return;var k=g.querySelectorAll("button");function v(t){b.checked=t;[].forEach.call(k,function(x){x.setAttribute("aria-pressed",String((x.getAttribute("data-skjul")==="1")===t))})}function u(t){try{var p=new URLSearchParams(location.search);t?p.set("tomme","1"):p.delete("tomme");var s=p.toString();history.replaceState(null,"",location.pathname+(s?"?"+s:"")+location.hash)}catch(e){}}[].forEach.call(k,function(x){x.addEventListener("click",function(){var t=x.getAttribute("data-skjul")==="1";v(t);u(t)})});v(/[?&]tomme=1(&|$)/.test(location.search));g.setAttribute("data-klar","")})()</script>
+</article>
+</div>
+<script>(function(){var m=document.querySelector("main");if(!m)return;function s(e,til){var a=e.target.closest&&e.target.closest("a.kildemaerke");if(!a||a.closest(".kildeliste"))return;var h=a.getAttribute("href");[].forEach.call(m.querySelectorAll("a.kildemaerke"),function(x){if(x.getAttribute("href")!==h||x.closest(".kildeliste"))return;var r=x.closest("tr,li");var v=r&&r.querySelector(".skema-v,.feltvaerdi");if(v)v.classList.toggle("fremhaevet",til)})}m.addEventListener("mouseover",function(e){s(e,true)});m.addEventListener("mouseout",function(e){s(e,false)});m.addEventListener("focusin",function(e){s(e,true)});m.addEventListener("focusout",function(e){s(e,false)})})();</script>
+</main>
+
+<footer class="sidefod">
+<div class="rum sidefod__ramme">
+<p class="sidefod__haard">We do not resell any robot on this site, and we take no payment from the manufacturers.</p>
+<div class="sidefod__loefter">
+<p class="sidefod__broed">Every figure in the catalogue has a source and a retrieval date. If the manufacturer does not state it, the field becomes not stated — it never becomes an estimate.</p>
+</div>
+<p class="sidefod__mark">
+<span class="sidefod__udgiver">Published by KeyResearch</span>
+<a class="sidefod__link" href="../../about/">About this publication</a>
+<button type="button" class="knap knap--tekst-moerk sidefod__link sidefod__valg" data-samtykke-aabn hidden>Analytics choice</button>
+</p>
+</div>
+</footer>
+<script src="../../samtykke.js" defer></script>
+
+</body>
+</html>
