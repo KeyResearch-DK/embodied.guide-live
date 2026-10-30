@@ -1,0 +1,144 @@
+.om{padding-bottom:8px}
+.om-etiket,.om .etiket{display:block;font-size:14px;font-weight:600;color:var(--graphite)}
+.om-hero{padding-top:56px}
+.om-hero .rum>.etiket,.f404 .om-etiket{display:inline-block;padding:3px 8px;font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--sort);background:var(--gul)}
+.om-hero__ord{margin-top:20px;max-width:16ch;font-family:var(--serif);font-weight:300;font-size:clamp(44px,4.6vw,66px);line-height:1.04;letter-spacing:-.025em;text-wrap:balance}
+.om-lede{margin-top:20px;max-width:36ch;font-size:18px;line-height:1.45;color:var(--graphite);text-wrap:pretty}
+.om-tal{margin-top:40px;padding:24px 0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 32px;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+@media (min-width:520px){.om-tal{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (min-width:1024px){.om-tal{grid-template-columns:repeat(6,minmax(0,1fr))}}
+.om-tal__post{display:grid;gap:8px;align-content:space-between}
+.om-tal dt{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--graphite)}
+.om-tal dd .figur{font-family:var(--serif);font-size:44px;font-weight:300;line-height:1;letter-spacing:-.02em;color:var(--accent)}
+.om-dato{margin-top:10px;font-size:13px;line-height:1.4;color:var(--graphite)}
+.om-hop{margin-top:40px}
+.om-hop ul{list-style:none;margin:10px 0 0;padding:0;display:grid;grid-template-columns:minmax(0,1fr);border-top:1px solid var(--rule)}
+.om-hop li{border-bottom:1px solid var(--rule)}
+.om-hop a{display:flex;align-items:center;min-height:44px;font-size:15px;font-weight:500;color:var(--ink);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
+.om-hop a:hover{text-decoration-thickness:2px}
+@media (min-width:680px){.om-hop ul{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 32px;border-top:0}.om-hop li{border-top:1px solid var(--rule);border-bottom:0}}
+@media (min-width:1200px){.om-hop ul{grid-template-columns:repeat(4,minmax(0,1fr))}}
+
+.om-sektion{padding-top:72px}
+.om-sektion .sektion-hoved{margin-bottom:28px}
+.om h2{font-family:var(--serif);font-weight:300;font-size:34px;line-height:1.1;letter-spacing:-.02em}
+.om h3{font-family:var(--serif);font-weight:400;font-size:22px;line-height:1.2;letter-spacing:-.01em}
+.om-broed{max-width:54ch;margin:0 0 16px;font-size:17px;line-height:1.6;text-wrap:pretty;overflow-wrap:anywhere}
+.om-broed--bred{max-width:52ch}
+.om-broed--slut{margin-bottom:0}
+
+.om-lob{display:grid;gap:48px 64px;align-items:start}
+.om-mark{display:grid;gap:24px}
+.om-mark__boks{display:grid;gap:10px;align-content:start}
+.om-regnskab{margin:0;padding:24px;background:var(--baand);border-radius:3px}
+.om-regnskab__raekke{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:6px 20px;padding:14px 0;border-top:1px solid var(--rule)}
+.om-regnskab__raekke:first-child{border-top:0;padding-top:0}
+.om-regnskab__raekke dt{font-size:15px;color:var(--graphite)}
+.om-regnskab__raekke dd{margin-left:auto}
+.om-regnskab__raekke dd .figur{font-family:var(--serif);font-size:30px;font-weight:300;line-height:1;letter-spacing:-.01em}
+.om-regnskab__raekke--sum{margin-top:6px;padding-top:18px;border-top:2px solid var(--ink);flex-wrap:nowrap}
+.om-regnskab__raekke--sum dd{flex:none}
+.om-regnskab__raekke--sum dt{color:var(--ink);font-weight:600}
+.om-regnskab__raekke--sum dd .figur{font-size:38px;font-weight:400}
+.om-regnskab__ligning{margin-top:2px;font-size:13px;font-weight:400;color:var(--graphite)}
+.om-bjaelke{display:flex;height:12px;margin-top:2px}
+.om-bjaelke__ja{flex:none;background:var(--accent);border-radius:3px 0 0 3px}
+.om-bjaelke__ns{flex:1;border:1px dashed var(--soft);border-left:0;border-radius:0 3px 3px 0}
+.om-bjaelke-ord{display:flex;justify-content:space-between;gap:12px;font-size:12px;line-height:1.3;color:var(--graphite)}
+
+.om-tilstande{margin-top:56px;padding-top:32px;border-top:1px solid var(--rule)}
+.om-tilstande>h3{margin-bottom:20px}
+.saml-noegle__raekke{display:grid;gap:12px}
+.saml-tegn{display:flex;align-items:center;gap:16px;min-width:0}
+.saml-tegn__mrk{flex:none;min-width:84px}
+.saml-tegn__tekst{font-size:14px;line-height:1.45;color:var(--graphite)}
+
+.om-trinliste{display:grid;gap:40px 32px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.om-trin{display:grid;gap:12px;align-content:start;padding-top:16px;border-top:1px solid var(--strong)}
+.om-trin__nr{font-family:var(--serif);font-size:14px;font-weight:600;color:var(--graphite);line-height:1}
+.om-trin__ord{display:grid;gap:6px}
+.om-trin .om-broed{margin:0;max-width:44ch;font-size:16px}
+
+.om-fold{max-width:calc(52ch + 42px);margin-bottom:12px;border:1px solid var(--rule);border-radius:3px}
+.saml-noegle__titel{display:flex;align-items:center;gap:12px;min-height:52px;padding:0 20px;list-style:none;cursor:pointer;border-radius:3px}
+.saml-noegle__titel::-webkit-details-marker{display:none}
+.saml-noegle__titel:hover .saml-noegle__navn{color:var(--accent)}
+.saml-noegle__navn{font-weight:600;font-size:16px}
+.saml-noegle__vis{margin-left:auto;display:inline-flex;align-items:center;gap:10px;font-size:14px;color:var(--graphite)}
+.saml-noegle__vis::after{content:"";width:7px;height:7px;border:solid currentColor;border-width:0 1.5px 1.5px 0;transform:translateY(-2px) rotate(45deg)}
+.saml-noegle__fold[open]>.saml-noegle__titel .saml-noegle__vis::after{transform:translateY(2px) rotate(-135deg)}
+.saml-noegle__vis-lukket,.saml-noegle__fold[open] .saml-noegle__vis-aaben{display:none}
+.saml-noegle__fold[open] .saml-noegle__vis-lukket{display:inline}
+.om-fold__krop{padding:20px;border-top:1px solid var(--rule)}
+.om-fold__trinliste{display:grid;gap:20px}
+.om-fold__trin{display:grid;gap:4px;margin:0}
+.om-fold__trin dt{font-size:14px;font-weight:600;color:var(--graphite)}
+.om-fold__trin dd{margin:0}
+
+.om-kort{margin:0;display:grid;gap:20px}
+.om-kort__raekke{display:grid;gap:2px}
+.om-kort__raekke dd{margin:0;font-size:16px;line-height:1.45}
+.om-kort__navn{display:block;font-weight:700}
+.om-kort a{display:inline-flex;align-items:center;min-height:24px;text-underline-offset:3px}
+.om-kilde{margin-top:28px;max-width:56ch;font-size:13px;line-height:1.5;color:var(--graphite)}
+.om-kilde+.om-kilde{margin-top:6px}
+
+@media (min-width:900px){
+  .om-lob{grid-template-columns:minmax(0,1fr) minmax(260px,340px)}
+  .om-lob--tal{grid-template-columns:minmax(0,1fr);row-gap:32px}
+  .om-lob--tal>.om-mark{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+  .om-lob--tilstande{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px}
+  .om-foldspalter{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px;align-items:start}
+  .om-foldspalte .om-fold{max-width:none}
+}
+@media (max-width:679px){
+  .om-hero{padding-top:32px}
+  .om-hero__ord,.f404__h1{font-size:40px}
+  .om-sektion{padding-top:48px}
+  .om h2{font-size:28px}
+  .om-regnskab{padding:18px}
+  .om-tal dd .figur{font-size:34px}
+  .saml-noegle__titel{padding:0 14px}
+  .om-fold__krop{padding:16px 14px}
+}
+
+.f404{padding-top:72px;padding-bottom:24px}
+.f404__h1{margin-top:20px;font-family:var(--serif);font-weight:300;font-size:clamp(44px,4.6vw,66px);line-height:1.04;letter-spacing:-.025em;text-wrap:balance}
+.f404__txt{margin-top:20px;max-width:36ch;font-size:18px;line-height:1.45;color:var(--graphite)}
+.f404__adr{margin-top:10px;font-size:14px;color:var(--graphite);overflow-wrap:anywhere}
+.f404__adr code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px;color:var(--ink)}
+.f404__sog{margin-top:36px;max-width:520px}
+.f404__sog label{display:block;margin-bottom:8px;font-size:14px;font-weight:600}
+.f404__felt{display:flex;gap:10px}
+.f404__felt .sog{flex:1 1 auto;min-width:0;height:44px;display:flex;border:1.5px solid var(--ink);border-radius:8px;background:var(--paper)}
+.f404__felt .sog:focus-within{outline:2px solid var(--accent);outline-offset:2px}
+.f404__felt input{border:0;background:none;font:inherit;font-size:16px;color:var(--ink);width:100%;padding:0 14px;outline:0;border-radius:8px}
+.f404__felt input::placeholder{color:var(--graphite);opacity:1}
+.f404__felt .btn{height:44px}
+.f404__traef{margin-top:14px;max-width:520px;overflow-wrap:anywhere;font-size:14px;line-height:1.5;color:var(--graphite)}
+.f404__traef strong{color:var(--ink);font-weight:600}
+.f404__kortrad{display:grid;grid-template-columns:repeat(3,minmax(0,176px));gap:16px;margin-top:20px}
+.f404__kort{display:grid;align-content:start;gap:2px;color:var(--ink);text-decoration:none}
+.f404__kort-bil{display:block;aspect-ratio:4/3;margin-bottom:6px;border-radius:3px;background:var(--plade);overflow:hidden}
+.f404__kort-bil img{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply}
+.f404__kort-prod{font-size:12px;line-height:1.3;color:var(--graphite)}
+.f404__kort-navn{font-family:var(--serif);font-size:20px;line-height:1.2}
+.f404__kort:hover .f404__kort-navn{text-decoration:underline;text-underline-offset:3px}
+.f404__veje{margin-top:28px;display:flex;flex-wrap:wrap;align-items:center;gap:14px 24px}
+.f404__veje .btn{height:44px;padding:0 20px;font-weight:500}
+.f404__veje a:not(.btn){display:inline-flex;align-items:center;min-height:24px;font-size:14px;font-weight:500;color:var(--ink);text-decoration:underline;text-underline-offset:3px}
+@media (pointer:coarse){
+  .f404__veje a:not(.btn){min-height:44px}
+}
+@media (max-width:679px){
+  .f404{padding-top:40px}
+  .f404__kortrad{grid-template-columns:1fr;gap:12px}
+  .f404__kort{grid-template-columns:104px 1fr auto;column-gap:14px;align-content:center;align-items:center;padding:8px 14px 8px 8px;border:1px solid var(--field);border-radius:6px}
+  .f404__kort::after{content:"\2192";grid-row:1/3;grid-column:3;align-self:center;font-size:20px}
+  .f404__kort-bil{grid-row:1/3;margin:0}
+  .f404__kort-prod{align-self:end}
+  .f404__kort-navn{align-self:start}
+}
+
+body{min-height:100dvh;display:flex;flex-direction:column}
+main{flex:1}
