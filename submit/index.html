@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en" dir="ltr" id="top">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com 'sha256-WBpGyPyHA8A4tEQtvXq6fNJM934gsqlVHqK0QW9WfX8='; style-src 'self' 'unsafe-inline'; img-src 'self' https://www.googletagmanager.com https://*.google-analytics.com; connect-src 'self' https://formspree.io https://www.googletagmanager.com https://*.google-analytics.com https://*.google.com; form-action 'self' https://formspree.io; object-src 'none'; base-uri 'self'">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Missing robot or wrong data? · embodied.guide</title>
+<meta name="description" content="Tell us which robot or robot AI model is missing from the catalogue.">
+<link rel="canonical" href="https://embodied.guide/submit/">
+<link rel="alternate" hreflang="en" href="https://embodied.guide/submit/">
+<link rel="alternate" hreflang="x-default" href="https://embodied.guide/submit/">
+<meta name="theme-color" content="#F4F2EF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#171513" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="../favicon.ico" sizes="48x48">
+<link rel="icon" href="../ny/ikoner/favicon.svg" type="image/svg+xml" sizes="any">
+<link rel="apple-touch-icon" href="../ny/ikoner/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="embodied.guide">
+<meta property="og:title" content="Missing robot or wrong data? · embodied.guide">
+<meta property="og:description" content="Tell us which robot or robot AI model is missing from the catalogue.">
+<meta property="og:url" content="https://embodied.guide/submit/">
+<meta property="og:image" content="https://embodied.guide/ny/ikoner/og-standard.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../ny/stil.css">
+<script src="../ny/tema.js"></script>
+<script src="../ny/klaeb.js"></script>
+<script>try{var v=localStorage.getItem('samtykke-analytics');if(v!=='ja'&&v!=='nej')throw 0}catch(e){document.documentElement.classList.add('samtykke-aaben')}</script>
+<link rel="preload" href="../ny/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../ny/fonts/literata-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../ny/stil-indsend.css">
+<script src="../ny/saml.js" defer></script>
+<script src="../ny/topmenu.js" defer></script>
+<script src="../ny/indsend.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#hoved">Skip to content</a>
+<div class="samtykke" id="samtykke" role="region" aria-label="Analytics choice" hidden><div class="wrap samtykke__in">
+<p>May we measure visits with Google Analytics? It sets no cookies until you accept.</p>
+<div class="samtykke__valg"><button type="button" class="btn btn--line" data-samtykke="ja">Allow analytics</button><button type="button" class="btn btn--line" data-samtykke="nej">No thanks</button></div>
+</div></div>
+<header class="top"><div class="wrap top__in">
+<a class="logo" href="../"><b>embodied</b><u><s>.</s>guide</u></a>
+<nav class="nav" aria-label="Site sections"><span class="nav__rob"><button class="nav__knap" type="button" aria-expanded="false" aria-controls="menu-robots">Robots</button><div class="nav__menu foldud" id="menu-robots" hidden><ul><li><a href="../humanoids/">Humanoids</a></li><li><a href="../quadrupeds/">Quadrupeds</a></li><li><a href="../robot-arms/">Robot arms</a></li><li><a href="../robot-hands/">Robot hands</a></li><li><a href="../mobile-manipulators/">Mobile manipulators</a></li><li class="nav__ind-m"><a class="nav__ind" href="../submit/" aria-current="page">Add a robot</a></li></ul></div></span><a href="../ai-models/">AI models</a><span class="nav__streg" aria-hidden="true"></span><a href="../manufacturers/">Manufacturers</a><a href="../about/">About us</a><a class="nav__ind" href="../submit/" aria-current="page">Add a robot</a></nav>
+<div class="tools"><a class="cmptal" href="../compare/" aria-label="Compare" data-href="../compare/" data-aria="Compare, {n} saved"><svg class="ik " viewBox="0 0 20 20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6.5h14M13.5 3l3.5 3.5-3.5 3.5M17 13.5H3M6.5 10 3 13.5 6.5 17"/></svg><span class="cmptal__ord">Compare</span></a><span class="dd"><input type="checkbox" id="enhedsskift" class="kunskaerm"><button class="dd__knap" type="button" aria-expanded="false" aria-controls="menu-visning" aria-label="Display: Metric, Light" data-aria="Display: {enhed}, {tema}"><svg class="ik " viewBox="0 0 20 20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5h5M12 5h5M3 10h2M9 10h8M3 15h8M15 15h2"/><circle cx="10" cy="5" r="1.8"/><circle cx="7" cy="10" r="1.8"/><circle cx="13" cy="15" r="1.8"/></svg></button><div class="dd__menu foldud" id="menu-visning" hidden><div class="dd__gr" role="group" aria-labelledby="dd-enhed"><p class="dd__hoved" id="dd-enhed">Units</p><button type="button" class="dd__valg" data-enhedsvalg="metrisk" aria-pressed="true">Metric</button><button type="button" class="dd__valg" data-enhedsvalg="imperial" aria-pressed="false">Imperial</button></div><div class="dd__gr" role="group" aria-labelledby="dd-tema"><p class="dd__hoved" id="dd-tema">Theme</p><button type="button" class="dd__valg" data-tema="light" aria-pressed="false">Light</button><button type="button" class="dd__valg" data-tema="dark" aria-pressed="false">Dark</button></div></div><script src="../ny/enhed.js"></script><noscript><label class="dd__ns" for="enhedsskift">Imperial</label></noscript></span></div>
+</div></header>
+<main id="hoved">
+<div class="wrap indsend">
+<div class="indsend__intro">
+<h1 class="indsend__h1">Missing robot or wrong data?</h1>
+<p class="indsend__lede">Tell us which robot or robot AI model should be in the catalogue. We need a link to the maker’s own page, datasheet or paper.</p>
+</div>
+<div class="indsend__hoved">
+<form class="indsend__form" id="form" method="post" action="#" novalidate data-endpoint="https://formspree.io/f/xzeekzjg" data-tekster="{&quot;fejl&quot;:{&quot;company&quot;:&quot;Enter the company or manufacturer&quot;,&quot;models&quot;:&quot;Enter the robot model or models&quot;,&quot;url&quot;:&quot;Enter a web address, like https://example.com/robot&quot;,&quot;name&quot;:&quot;Enter your name&quot;,&quot;email&quot;:&quot;Enter an email address in the correct format, like name@example.com&quot;},&quot;send&quot;:&quot;Send&quot;,&quot;sendIgen&quot;:&quot;Send again&quot;,&quot;sender&quot;:&quot;Sending…&quot;,&quot;titelFejl&quot;:&quot;Error: Missing robot or wrong data? · embodied.guide&quot;,&quot;titelSender&quot;:&quot;Sending… · embodied.guide&quot;,&quot;titelSendt&quot;:&quot;Suggestion sent · embodied.guide&quot;}">
+<div class="inp-opsummering" id="opsummering" role="alert" tabindex="-1" aria-labelledby="opsummering-h" hidden>
+<h2 class="inp-opsummering__h" id="opsummering-h" data-fejl="There is a problem" data-sendfejl="We could not send your suggestion">There is a problem</h2>
+<p id="opsummering-tekst" hidden>Your answers are still here. Check your connection and press Send again, or write to us at <a href="mailto:jpk@keyresearch.dk">jpk@keyresearch.dk</a>.</p>
+<ul id="opsummering-liste"></ul>
+</div>
+<p class="indsend__krav">Fields marked * are required.</p>
+
+<div class="inp" data-f="company">
+<label class="inp__etiket" for="company">Company / manufacturer<span class="inp__pk" aria-hidden="true">*</span></label>
+<span class="inp__hjaelp" id="company-h">The company or lab behind the robot or model.</span>
+<p class="inp__fejl" id="company-f" hidden><svg class="ic" viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="8" cy="8" r="6.4"/><path d="M8 4.6v4.2M8 11v.1"/></svg><span><span class="kunskaerm">Error: </span><span data-t></span></span></p>
+<input class="inp__felt" id="company" name="company" type="text" autocomplete="organization" required aria-describedby="company-h">
+</div>
+
+<div class="inp" data-f="models">
+<label class="inp__etiket" for="models">Robot or AI model(s)<span class="inp__pk" aria-hidden="true">*</span></label>
+<span class="inp__hjaelp" id="models-h">For example a humanoid, a quadruped or a VLA model; separate several with commas.</span>
+<p class="inp__fejl" id="models-f" hidden><svg class="ic" viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="8" cy="8" r="6.4"/><path d="M8 4.6v4.2M8 11v.1"/></svg><span><span class="kunskaerm">Error: </span><span data-t></span></span></p>
+<input class="inp__felt" id="models" name="models" type="text" autocomplete="off" required aria-describedby="models-h">
+</div>
+
+<div class="inp" data-f="url">
+<label class="inp__etiket" for="url">Link to the maker’s page, datasheet or paper<span class="inp__pk" aria-hidden="true">*</span></label>
+<span class="inp__hjaelp" id="url-h">A page or file published by the maker. You can leave out https://.</span>
+<p class="inp__fejl" id="url-f" hidden><svg class="ic" viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="8" cy="8" r="6.4"/><path d="M8 4.6v4.2M8 11v.1"/></svg><span><span class="kunskaerm">Error: </span><span data-t></span></span></p>
+<input class="inp__felt" id="url" name="url" type="text" autocomplete="off" required aria-describedby="url-h" inputmode="url" spellcheck="false">
+</div>
+
+<div class="inp" data-f="name">
+<label class="inp__etiket" for="name">Your name<span class="inp__pk" aria-hidden="true">*</span></label>
+<p class="inp__fejl" id="name-f" hidden><svg class="ic" viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="8" cy="8" r="6.4"/><path d="M8 4.6v4.2M8 11v.1"/></svg><span><span class="kunskaerm">Error: </span><span data-t></span></span></p>
+<input class="inp__felt" id="name" name="name" type="text" autocomplete="name" required>
+</div>
+
+<div class="inp" data-f="email">
+<label class="inp__etiket" for="email">Email<span class="inp__pk" aria-hidden="true">*</span></label>
+<span class="inp__hjaelp" id="email-h">For example name@example.com.</span>
+<p class="inp__fejl" id="email-f" hidden><svg class="ic" viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="8" cy="8" r="6.4"/><path d="M8 4.6v4.2M8 11v.1"/></svg><span><span class="kunskaerm">Error: </span><span data-t></span></span></p>
+<input class="inp__felt" id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-h" spellcheck="false">
+</div>
+
+<fieldset class="inp-gruppe">
+<legend>You are</legend>
+<div class="inp-valg-liste">
+<label class="inp-valg"><input type="radio" name="who" value="manufacturer"><span class="inp-valg__ord">Manufacturer</span></label>
+<label class="inp-valg"><input type="radio" name="who" value="reseller"><span class="inp-valg__ord">Reseller</span></label>
+<label class="inp-valg"><input type="radio" name="who" value="other"><span class="inp-valg__ord">Other</span></label>
+</div>
+</fieldset>
+
+<div class="inp" data-f="msg">
+<label class="inp__etiket" for="msg">Message</label>
+<span class="inp__hjaelp" id="msg-h">Anything else we should know.</span>
+<textarea class="inp__felt" id="msg" name="msg" rows="5" aria-describedby="msg-h"></textarea>
+</div>
+
+<div class="inp-hp" aria-hidden="true"><label>Leave this field empty<input type="text" name="hp_note" id="hp_note" tabindex="-1" autocomplete="off" data-1p-ignore data-lpignore="true"></label></div>
+
+<div class="inp-send">
+<button type="submit" class="btn" id="send">Send</button>
+<span class="kunskaerm" id="sendstatus" role="status"></span>
+</div>
+<p class="inp__hjaelp inp-privat">We use your name and email only for this suggestion.</p>
+</form>
+
+<section class="indsend__kvit" id="kvit" tabindex="-1" aria-labelledby="kvit-h" hidden>
+<h2 class="indsend__kvit-h" id="kvit-h">Thank you. Your suggestion has been sent.</h2>
+<dl>
+<div><dt>Company / manufacturer</dt><dd data-k="company"></dd></div>
+<div><dt>Robot or AI model(s)</dt><dd data-k="models"></dd></div>
+<div><dt>Link</dt><dd data-k="url"></dd></div>
+</dl>
+<p class="inp-send"><a class="btn btn--line" href="../">Back to the catalogue</a><button type="button" class="lnk" id="igen">Send another</button></p>
+</section>
+</div>
+</div>
+</main>
+<footer class="foot"><nav class="wrap foot__nav" aria-label="Catalogue sections"><a href="../humanoids/">Humanoids</a><a href="../quadrupeds/">Quadrupeds</a><a href="../robot-arms/">Robot arms</a><a href="../robot-hands/">Robot hands</a><a href="../mobile-manipulators/">Mobile manipulators</a><a href="../ai-models/">AI models</a><a href="../manufacturers/">Manufacturers</a></nav><div class="wrap foot__in">
+<p>We do not resell any robot on this site, and we take no payment from the manufacturers.</p>
+<p class="foot__mark"><span>Every figure in the catalogue has a source and a retrieval date. If the manufacturer does not state it, the field becomes not stated — it never becomes an estimate. Published by <a href="https://www.linkedin.com/company/keyresearchdk/" rel="noopener">KeyResearch</a>.</span><a href="../about/">About us</a><a href="../submit/" aria-current="page">Missing robot or wrong data?</a><button type="button" data-samtykke-aabn hidden>Analytics choice</button></p>
+</div></footer>
+<script src="../ny/samtykke.js" defer></script>
+<noscript><style>.nav__knap,.dd__knap{display:none}.nav__rob,.nav__menu.foldud.foldud[hidden],.nav__menu ul,.nav__menu li{display:contents}.nav__menu a{min-height:0;padding:4px 0;color:var(--graphite)}</style></noscript>
+</body>
+</html>

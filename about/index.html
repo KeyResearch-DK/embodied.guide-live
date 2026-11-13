@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en" dir="ltr" id="top">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com 'sha256-WBpGyPyHA8A4tEQtvXq6fNJM934gsqlVHqK0QW9WfX8='; style-src 'self' 'unsafe-inline'; img-src 'self' https://www.googletagmanager.com https://*.google-analytics.com; connect-src 'self' https://formspree.io https://www.googletagmanager.com https://*.google-analytics.com https://*.google.com; form-action 'self' https://formspree.io; object-src 'none'; base-uri 'self'">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Who counts, and how · embodied.guide</title>
+<meta name="description" content="Who publishes this robot catalogue, and how the figures are gathered and sourced.">
+<link rel="canonical" href="https://embodied.guide/about/">
+<link rel="alternate" hreflang="en" href="https://embodied.guide/about/">
+<link rel="alternate" hreflang="x-default" href="https://embodied.guide/about/">
+<meta name="theme-color" content="#F4F2EF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#171513" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="../favicon.ico" sizes="48x48">
+<link rel="icon" href="../ny/ikoner/favicon.svg" type="image/svg+xml" sizes="any">
+<link rel="apple-touch-icon" href="../ny/ikoner/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="embodied.guide">
+<meta property="og:title" content="Who counts, and how · embodied.guide">
+<meta property="og:description" content="Who publishes this robot catalogue, and how the figures are gathered and sourced.">
+<meta property="og:url" content="https://embodied.guide/about/">
+<meta property="og:image" content="https://embodied.guide/ny/ikoner/og-standard.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../ny/stil.css">
+<script src="../ny/tema.js"></script>
+<script src="../ny/klaeb.js"></script>
+<script>try{var v=localStorage.getItem('samtykke-analytics');if(v!=='ja'&&v!=='nej')throw 0}catch(e){document.documentElement.classList.add('samtykke-aaben')}</script>
+<link rel="preload" href="../ny/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../ny/fonts/literata-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"KeyResearch","sameAs":["https://www.linkedin.com/company/keyresearchdk/"]}</script>
+<link rel="stylesheet" href="../ny/stil-om.css">
+<script src="../ny/saml.js" defer></script>
+<script src="../ny/topmenu.js" defer></script>
+<script src="../ny/tael.js" defer></script>
+<script src="../ny/om.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#hoved">Skip to content</a>
+<div class="samtykke" id="samtykke" role="region" aria-label="Analytics choice" hidden><div class="wrap samtykke__in">
+<p>May we measure visits with Google Analytics? It sets no cookies until you accept.</p>
+<div class="samtykke__valg"><button type="button" class="btn btn--line" data-samtykke="ja">Allow analytics</button><button type="button" class="btn btn--line" data-samtykke="nej">No thanks</button></div>
+</div></div>
+<header class="top"><div class="wrap top__in">
+<a class="logo" href="../"><b>embodied</b><u><s>.</s>guide</u></a>
+<nav class="nav" aria-label="Site sections"><span class="nav__rob"><button class="nav__knap" type="button" aria-expanded="false" aria-controls="menu-robots">Robots</button><div class="nav__menu foldud" id="menu-robots" hidden><ul><li><a href="../humanoids/">Humanoids</a></li><li><a href="../quadrupeds/">Quadrupeds</a></li><li><a href="../robot-arms/">Robot arms</a></li><li><a href="../robot-hands/">Robot hands</a></li><li><a href="../mobile-manipulators/">Mobile manipulators</a></li><li class="nav__ind-m"><a class="nav__ind" href="../submit/">Add a robot</a></li></ul></div></span><a href="../ai-models/">AI models</a><span class="nav__streg" aria-hidden="true"></span><a href="../manufacturers/">Manufacturers</a><a href="../about/" aria-current="page">About us</a><a class="nav__ind" href="../submit/">Add a robot</a></nav>
+<div class="tools"><a class="cmptal" href="../compare/" aria-label="Compare" data-href="../compare/" data-aria="Compare, {n} saved"><svg class="ik " viewBox="0 0 20 20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6.5h14M13.5 3l3.5 3.5-3.5 3.5M17 13.5H3M6.5 10 3 13.5 6.5 17"/></svg><span class="cmptal__ord">Compare</span></a><span class="dd"><input type="checkbox" id="enhedsskift" class="kunskaerm"><button class="dd__knap" type="button" aria-expanded="false" aria-controls="menu-visning" aria-label="Display: Metric, Light" data-aria="Display: {enhed}, {tema}"><svg class="ik " viewBox="0 0 20 20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5h5M12 5h5M3 10h2M9 10h8M3 15h8M15 15h2"/><circle cx="10" cy="5" r="1.8"/><circle cx="7" cy="10" r="1.8"/><circle cx="13" cy="15" r="1.8"/></svg></button><div class="dd__menu foldud" id="menu-visning" hidden><div class="dd__gr" role="group" aria-labelledby="dd-enhed"><p class="dd__hoved" id="dd-enhed">Units</p><button type="button" class="dd__valg" data-enhedsvalg="metrisk" aria-pressed="true">Metric</button><button type="button" class="dd__valg" data-enhedsvalg="imperial" aria-pressed="false">Imperial</button></div><div class="dd__gr" role="group" aria-labelledby="dd-tema"><p class="dd__hoved" id="dd-tema">Theme</p><button type="button" class="dd__valg" data-tema="light" aria-pressed="false">Light</button><button type="button" class="dd__valg" data-tema="dark" aria-pressed="false">Dark</button></div></div><script src="../ny/enhed.js"></script><noscript><label class="dd__ns" for="enhedsskift">Imperial</label></noscript></span></div>
+</div></header>
+<main id="hoved">
+<div class="wrap om">
+<section class="om-hero">
+<div class="rum">
+<span class="etiket">About this publication</span>
+<h1 class="t-h1 om-hero__ord">Who counts, and how</h1>
+<p class="om-lede">Search, compare and verify specifications field by field. Missing information is never estimated.</p>
+<dl class="om-tal">
+<div class="om-tal__post"><dt>quadruped robots</dt><dd><b class="figur">175</b></dd></div>
+<div class="om-tal__post"><dt>humanoid robots</dt><dd><b class="figur">384</b></dd></div>
+<div class="om-tal__post"><dt>robot arms</dt><dd><b class="figur">52</b></dd></div>
+<div class="om-tal__post"><dt>robot hands</dt><dd><b class="figur">69</b></dd></div>
+<div class="om-tal__post"><dt>mobile manipulator robots</dt><dd><b class="figur">6</b></dd></div>
+<div class="om-tal__post"><dt>robot manufacturers</dt><dd><b class="figur">311</b></dd></div>
+<div class="om-tal__post"><dt>countries</dt><dd><b class="figur">25</b></dd></div>
+<div class="om-tal__post"><dt>robot AI models</dt><dd><b class="figur">148</b></dd></div>
+<div class="om-tal__post"><dt>AI model developers</dt><dd><b class="figur">84</b></dd></div>
+</dl>
+<p class="om-dato">366 companies in all; 29 make both robots and AI models.</p>
+<p class="om-dato">Figures as of 13 November 2026</p>
+<nav class="om-hop" aria-labelledby="om-hop-etiket"><span class="etiket" id="om-hop-etiket">On this page</span><ul>
+<li><a href="#om-s-metode">How a figure reaches the page</a></li><li><a href="#om-s-regnskab">Everything the catalogue can know</a></li><li><a href="#om-s-detaljer">Technical details</a></li><li><a href="#om-s-udgiver">Publisher</a></li>
+</ul></nav>
+</div>
+</section>
+<section class="sektion om-sektion" id="om-s-metode" aria-labelledby="om-h-metode">
+<div class="rum">
+<div class="sektion-hoved"><h2 class="t-h2" id="om-h-metode">How a figure reaches the page</h2></div>
+<ol class="om-trinliste">
+<li class="om-trin">
+<span class="om-trin__nr figur" aria-hidden="true">01</span>
+<div class="om-trin__ord">
+<h3 class="t-h3 om-trin__titel">Fetched</h3>
+<p class="om-broed">We fetch the manufacturer’s own page, datasheet or manual and keep the file as evidence, with its address and the date it was fetched.</p>
+</div>
+</li>
+<li class="om-trin">
+<span class="om-trin__nr figur" aria-hidden="true">02</span>
+<div class="om-trin__ord">
+<h3 class="t-h3 om-trin__titel">Recorded</h3>
+<p class="om-broed">The figure goes into one of the schema’s 33 fields with a unit and a source.</p>
+</div>
+</li>
+<li class="om-trin">
+<span class="om-trin__nr figur" aria-hidden="true">03</span>
+<div class="om-trin__ord">
+<h3 class="t-h3 om-trin__titel">Checked for completeness</h3>
+<p class="om-broed">The validator reads the whole catalogue again and stops the build if a figure is missing a unit, a source or a date.</p>
+</div>
+</li>
+<li class="om-trin">
+<span class="om-trin__nr figur" aria-hidden="true">04</span>
+<div class="om-trin__ord">
+<h3 class="t-h3 om-trin__titel">Built</h3>
+<p class="om-broed">The pages are generated afresh from the same files, and the build runs the validator first every time.</p>
+</div>
+</li>
+</ol>
+</div>
+</section>
+<section class="sektion om-sektion" id="om-s-regnskab" aria-labelledby="om-h-regnskab">
+<div class="rum">
+<div class="om-lob om-lob--tal">
+<div class="om-ord">
+<div class="sektion-hoved"><h2 class="t-h2" id="om-h-regnskab">Everything the catalogue can know</h2></div>
+<p class="om-broed om-broed--slut">Robot AI models, robot arms, robot hands and mobile manipulators are counted separately, each against its own fields.</p>
+</div>
+<div class="om-mark">
+<div class="om-mark__boks">
+<span class="etiket">Robots</span>
+<p class="om-bjaelke-andel">25% stated</p>
+<div class="om-bjaelke" role="img" aria-label="4,598 of 18,447 stated, 13,849 not stated"><span class="om-bjaelke__ja" style="flex-basis:24.93%"></span><span class="om-bjaelke__ns"></span></div>
+<div class="om-bjaelke-ord" aria-hidden="true"><span>Stated</span><span>Not stated</span></div>
+<dl class="om-regnskab stans">
+<div class="om-regnskab__raekke">
+<dt>Stated in a source</dt><dd><b class="figur">4,598</b></dd>
+</div>
+<div class="om-regnskab__raekke">
+<dt>Not stated</dt><dd><b class="figur">13,849</b></dd>
+</div>
+<div class="om-regnskab__raekke om-regnskab__raekke--sum">
+<dt>Possible pieces of information
+<span class="etiket om-regnskab__ligning">33 fields × 559 robots</span></dt><dd><b class="figur">18,447</b></dd>
+</div>
+</dl>
+</div>
+<div class="om-mark__boks">
+<span class="etiket">Robot AI models</span>
+<p class="om-bjaelke-andel">51% stated</p>
+<div class="om-bjaelke" role="img" aria-label="1,053 of 2,072 stated, 1,019 not stated"><span class="om-bjaelke__ja" style="flex-basis:50.82%"></span><span class="om-bjaelke__ns"></span></div>
+<div class="om-bjaelke-ord" aria-hidden="true"><span>Stated</span><span>Not stated</span></div>
+<dl class="om-regnskab stans">
+<div class="om-regnskab__raekke">
+<dt>Stated by the developer</dt><dd><b class="figur">1,053</b></dd>
+</div>
+<div class="om-regnskab__raekke">
+<dt>Not stated</dt><dd><b class="figur">1,019</b></dd>
+</div>
+<div class="om-regnskab__raekke om-regnskab__raekke--sum">
+<dt>Possible pieces of information
+<span class="etiket om-regnskab__ligning">14 fields × 148 robot AI models</span></dt><dd><b class="figur">2,072</b></dd>
+</div>
+</dl>
+</div>
+<div class="om-mark__boks">
+<span class="etiket">Robot arms</span>
+<p class="om-bjaelke-andel">59% stated</p>
+<div class="om-bjaelke" role="img" aria-label="671 of 1,144 stated, 473 not stated"><span class="om-bjaelke__ja" style="flex-basis:58.65%"></span><span class="om-bjaelke__ns"></span></div>
+<div class="om-bjaelke-ord" aria-hidden="true"><span>Stated</span><span>Not stated</span></div>
+<dl class="om-regnskab stans">
+<div class="om-regnskab__raekke">
+<dt>Stated in a source</dt><dd><b class="figur">671</b></dd>
+</div>
+<div class="om-regnskab__raekke">
+<dt>Not stated</dt><dd><b class="figur">473</b></dd>
+</div>
+<div class="om-regnskab__raekke om-regnskab__raekke--sum">
+<dt>Possible pieces of information
+<span class="etiket om-regnskab__ligning">22 fields × 52 robots</span></dt><dd><b class="figur">1,144</b></dd>
+</div>
+</dl>
+</div>
+<div class="om-mark__boks">
+<span class="etiket">Robot hands</span>
+<p class="om-bjaelke-andel">46% stated</p>
+<div class="om-bjaelke" role="img" aria-label="573 of 1,242 stated, 669 not stated"><span class="om-bjaelke__ja" style="flex-basis:46.14%"></span><span class="om-bjaelke__ns"></span></div>
+<div class="om-bjaelke-ord" aria-hidden="true"><span>Stated</span><span>Not stated</span></div>
+<dl class="om-regnskab stans">
+<div class="om-regnskab__raekke">
+<dt>Stated in a source</dt><dd><b class="figur">573</b></dd>
+</div>
+<div class="om-regnskab__raekke">
+<dt>Not stated</dt><dd><b class="figur">669</b></dd>
+</div>
+<div class="om-regnskab__raekke om-regnskab__raekke--sum">
+<dt>Possible pieces of information
+<span class="etiket om-regnskab__ligning">18 fields × 69 robots</span></dt><dd><b class="figur">1,242</b></dd>
+</div>
+</dl>
+</div>
+<div class="om-mark__boks">
+<span class="etiket">Mobile manipulators</span>
+<p class="om-bjaelke-andel">36% stated</p>
+<div class="om-bjaelke" role="img" aria-label="28 of 78 stated, 50 not stated"><span class="om-bjaelke__ja" style="flex-basis:35.90%"></span><span class="om-bjaelke__ns"></span></div>
+<div class="om-bjaelke-ord" aria-hidden="true"><span>Stated</span><span>Not stated</span></div>
+<dl class="om-regnskab stans">
+<div class="om-regnskab__raekke">
+<dt>Stated in a source</dt><dd><b class="figur">28</b></dd>
+</div>
+<div class="om-regnskab__raekke">
+<dt>Not stated</dt><dd><b class="figur">50</b></dd>
+</div>
+<div class="om-regnskab__raekke om-regnskab__raekke--sum">
+<dt>Possible pieces of information
+<span class="etiket om-regnskab__ligning">13 fields × 6 robots</span></dt><dd><b class="figur">78</b></dd>
+</div>
+</dl>
+</div>
+</div>
+</div>
+<div class="om-tilstande" id="om-s-tilstande">
+<h3 class="t-h3" id="om-h-tilstande">The four states</h3>
+<div class="om-lob om-lob--tilstande">
+<div class="om-ord">
+<p class="om-broed om-broed--bred">A figure, a zero, a no and a gap are four different things, and each looks different on the page, so a zero is never shown as an empty cell and an empty cell is never read as a zero. Across the 559 robots, the manufacturers state 30 measured zeros and answer no 42 times.</p>
+<p class="om-broed om-broed--bred om-broed--slut">The robot pages use these same marks. Each figure also carries a source mark (A, B, C …) that opens its source and note.</p>
+</div>
+<ul class="saml-noegle__raekke om-maerker">
+<li class="saml-tegn"><span class="saml-tegn__mrk"><span class="enhedsvis enhedsvis--metrisk"><span class="val">14<i>kg</i></span></span><span class="enhedsvis enhedsvis--imperial"><span class="val">30.9<i>lb</i></span></span></span><span class="saml-tegn__tekst">A figure the manufacturer states.</span></li>
+<li class="saml-tegn"><span class="saml-tegn__mrk"><span class="val">0</span></span><span class="saml-tegn__tekst">A reported value of zero, not missing data.</span></li>
+<li class="saml-tegn"><span class="saml-tegn__mrk"><span class="st st--no">No</span></span><span class="saml-tegn__tekst">Explicitly denied by the source.</span></li>
+<li class="saml-tegn"><span class="saml-tegn__mrk"><span class="st st--ns">Not stated</span></span><span class="saml-tegn__tekst">No published source states this field.</span></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section class="sektion om-sektion" id="om-s-detaljer" aria-labelledby="om-h-detaljer">
+<div class="rum">
+<div class="sektion-hoved"><h2 class="t-h2" id="om-h-detaljer">Technical details</h2></div>
+<div class="om-foldspalter">
+<div class="om-foldspalte">
+<div class="saml-noegle om-fold">
+<details class="saml-noegle__fold">
+<summary class="saml-noegle__titel"><span class="saml-noegle__navn">Source marks</span><span class="saml-noegle__vis"><span class="saml-noegle__vis-ord saml-noegle__vis-aaben">Show</span><span class="saml-noegle__vis-ord saml-noegle__vis-lukket">Hide</span></span></summary>
+<div class="om-fold__krop">
+<p class="om-broed om-broed--bred om-broed--slut">4,571 of the 4,598 stated fields carry a source mark. 3,522 point to the manufacturer’s own product page, 1,049 to a secondary source – a datasheet, a manual or developer documentation from the manufacturer, or a press report where the manufacturer gives no figure. The remaining 27 are a no given in place of a figure, which has nothing to source.</p>
+</div>
+</details>
+</div>
+<div class="saml-noegle om-fold">
+<details class="saml-noegle__fold">
+<summary class="saml-noegle__titel"><span class="saml-noegle__navn">The steps in full</span><span class="saml-noegle__vis"><span class="saml-noegle__vis-ord saml-noegle__vis-aaben">Show</span><span class="saml-noegle__vis-ord saml-noegle__vis-lukket">Hide</span></span></summary>
+<div class="om-fold__krop">
+<dl class="om-fold__trinliste">
+<div class="om-fold__trin"><dt class="etiket">Recorded</dt>
+<dd class="om-broed om-broed--bred">If the manufacturer does not state it, the field becomes not stated. It never becomes an estimate.</dd></div>
+<div class="om-fold__trin"><dt class="etiket">Checked for completeness</dt>
+<dd class="om-broed om-broed--bred">It checks that each figure is complete and sourced, not that the manufacturer’s claim is true; we do not test the robots. If the manufacturer’s metric and imperial figures do not match, we never correct them quietly: either the build stops, or the disagreement stands on the page beside the figure.</dd></div>
+<div class="om-fold__trin"><dt class="etiket">Built</dt>
+<dd class="om-broed om-broed--bred">That is why the site carries 0 figures without a source.</dd></div>
+</dl>
+</div>
+</details>
+</div>
+</div>
+<div class="om-foldspalte">
+<div class="saml-noegle om-fold">
+<details class="saml-noegle__fold">
+<summary class="saml-noegle__titel"><span class="saml-noegle__navn">Where the pictures come from</span><span class="saml-noegle__vis"><span class="saml-noegle__vis-ord saml-noegle__vis-aaben">Show</span><span class="saml-noegle__vis-ord saml-noegle__vis-lukket">Hide</span></span></summary>
+<div class="om-fold__krop">
+<p class="om-broed om-broed--bred">Pictures are the manufacturers’ and developers’ own photos, and press photos. For an AI model, a still from a video of the model at work may stand in. Where a background has been removed, the robot itself is unchanged.</p>
+<p class="om-broed om-broed--bred om-broed--slut">No picture of a robot or a person is AI-generated. The one exception is a world or simulation model’s own output, which may appear on that model’s own page and is marked “Generated by the model”. Models without their own picture show a real photo of robot training or use, marked “Illustrative image — not this model”.</p>
+</div>
+</details>
+</div>
+<div class="saml-noegle om-fold">
+<details class="saml-noegle__fold" id="om-ai-modeller">
+<summary class="saml-noegle__titel"><span class="saml-noegle__navn">Robot AI models</span><span class="saml-noegle__vis"><span class="saml-noegle__vis-ord saml-noegle__vis-aaben">Show</span><span class="saml-noegle__vis-ord saml-noegle__vis-lukket">Hide</span></span></summary>
+<div class="om-fold__krop">
+<p class="om-broed om-broed--bred">Some entries are AI models, not robots. A model’s page describes the software; the robots it runs on have their own pages. A model’s type is the one its developer calls it – vision-language-action (VLA), world action model, world model, embodied reasoning or general-purpose model – and reads “Not stated” where the developer uses none of these words. A vision-language-action model takes camera images and an instruction and turns them into movements for a robot.</p>
+<p class="om-broed om-broed--bred om-broed--slut">Figures on a model’s page come from its developer. A general-purpose model is included when its robot use is documented by the developer or by a named independent study; that study is a secondary source and shows only that the model has been used for robot tasks. The catalogue gives no benchmark results and no ranking of models.</p>
+</div>
+</details>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="sektion om-sektion om-udgiver" id="om-s-udgiver" aria-labelledby="om-h-udgiver">
+<div class="rum">
+<div class="om-lob">
+<div class="om-ord">
+<div class="sektion-hoved"><h2 class="t-h2" id="om-h-udgiver">Publisher</h2></div>
+<p class="om-broed">KeyResearch in Aarhus, Denmark, publishes the catalogue as a whole. It is not the source of any individual entry, and it is not a party to any sale.</p>
+<p class="om-broed">For corrections or updated datasheets, use the form: <a href="../submit/">Missing robot or wrong data?</a> Corrections are verified at the source with an updated retrieval date.</p>
+<p class="om-broed">Related: <a href="https://www.turingtree.com/" rel="noopener">Turing Tree</a>, a directory of the people and organisations shaping AI.</p>
+</div>
+<div class="om-mark">
+<dl class="om-kort">
+<div class="om-kort__raekke">
+<dt class="etiket">Address</dt>
+<dd><span class="om-kort__navn">KeyResearch</span>Incuba, Åbogade 15, Aarhus</dd>
+</div>
+<div class="om-kort__raekke">
+<dt class="etiket">Telephone</dt>
+<dd><a href="tel:+4522231116">+45 22231116</a></dd>
+</div>
+<div class="om-kort__raekke">
+<dt class="etiket">Email</dt>
+<dd><a href="mailto:jpk@keyresearch.dk">jpk@keyresearch.dk</a></dd>
+</div>
+<div class="om-kort__raekke">
+<dt class="etiket">LinkedIn</dt>
+<dd><a href="https://www.linkedin.com/company/keyresearchdk/" rel="noopener">KeyResearch</a><br><a href="https://www.linkedin.com/in/jens-peder-kristensen/" rel="noopener">Jens Peder Kristensen</a></dd>
+</div>
+</dl>
+</div>
+</div>
+<p class="om-kilde">The maps on the manufacturers page are drawn from Natural Earth (naturalearthdata.com, public domain).</p>
+<p class="om-kilde">City positions come from Natural Earth and from GeoNames (geonames.org), whose data is used under the Creative Commons Attribution 4.0 licence (CC BY 4.0, creativecommons.org/licenses/by/4.0).</p>
+</div>
+</section>
+</div>
+</main>
+<footer class="foot"><nav class="wrap foot__nav" aria-label="Catalogue sections"><a href="../humanoids/">Humanoids</a><a href="../quadrupeds/">Quadrupeds</a><a href="../robot-arms/">Robot arms</a><a href="../robot-hands/">Robot hands</a><a href="../mobile-manipulators/">Mobile manipulators</a><a href="../ai-models/">AI models</a><a href="../manufacturers/">Manufacturers</a></nav><div class="wrap foot__in">
+<p>We do not resell any robot on this site, and we take no payment from the manufacturers.</p>
+<p class="foot__mark"><span>Every figure in the catalogue has a source and a retrieval date. If the manufacturer does not state it, the field becomes not stated — it never becomes an estimate. Published by <a href="https://www.linkedin.com/company/keyresearchdk/" rel="noopener">KeyResearch</a>.</span><a href="../about/" aria-current="page">About us</a><a href="../submit/">Missing robot or wrong data?</a><button type="button" data-samtykke-aabn hidden>Analytics choice</button></p>
+</div></footer>
+<script src="../ny/samtykke.js" defer></script>
+<noscript><style>.nav__knap,.dd__knap{display:none}.nav__rob,.nav__menu.foldud.foldud[hidden],.nav__menu ul,.nav__menu li{display:contents}.nav__menu a{min-height:0;padding:4px 0;color:var(--graphite)}</style></noscript>
+</body>
+</html>
