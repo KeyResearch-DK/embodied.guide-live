@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>embodied.guide — Robot catalogue: specifications and sources</title>
+  <link>https://embodied.guide/</link>
+  <atom:link href="https://embodied.guide/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>Independent catalogue of humanoid and quadruped robots, robot arms, robot hands, robot AI models and data capture devices for robot training. Every figure with a source and a date.</description>
+  <language>en</language>
+  <lastBuildDate>Thu, 26 Nov 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>ShengShu Technology Motubrain 2.0 robot AI model: specs and sources</title>
+  <link>https://embodied.guide/robots/shengshu-motubrain-2-0/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/shengshu-motubrain-2-0/</guid>
+  <category>robot AI model</category>
+  <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+  <description>Motubrain 2.0 is a robot AI model from ShengShu Technology (China). Released 2026.</description>
+</item>
+<item>
+  <title>LivSyn Robotics LivEgo egocentric rig: specs and sources</title>
+  <link>https://embodied.guide/robots/livsyn-robotics-livego/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/livsyn-robotics-livego/</guid>
+  <category>egocentric rig</category>
+  <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+  <description>LivEgo is a egocentric rig from LivSyn Robotics (China). Status: announced. Weight 163 g.</description>
+</item>
+<item>
+  <title>X Square Robot QUANXTA Zero-E0 egocentric rig: specs and sources</title>
+  <link>https://embodied.guide/robots/x-square-robot-quanxta-zero-e0/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/x-square-robot-quanxta-zero-e0/</guid>
+  <category>egocentric rig</category>
+  <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+  <description>QUANXTA Zero-E0 is a egocentric rig from X Square Robot (China). Status: announced.</description>
+</item>
+<item>
+  <title>Virdyn VDEgo-C2 egocentric rig: specs and sources</title>
+  <link>https://embodied.guide/robots/virdyn-vdego-c2/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/virdyn-vdego-c2/</guid>
+  <category>egocentric rig</category>
+  <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+  <description>VDEgo-C2 is a egocentric rig from Virdyn (China). Status: in production.</description>
+</item>
+<item>
+  <title>Franka GELLO teleop exoskeleton: specs and sources</title>
+  <link>https://embodied.guide/robots/franka-robotics-franka-gello/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/franka-robotics-franka-gello/</guid>
+  <category>teleop exoskeleton</category>
+  <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+  <description>Franka GELLO is a teleop exoskeleton from Franka Robotics (Germany). Status: announced in 2025.</description>
+</item>
+<item>
+  <title>Trossen Robotics Glide teleop exoskeleton: specs and sources</title>
+  <link>https://embodied.guide/robots/trossen-robotics-glide/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/trossen-robotics-glide/</guid>
+  <category>teleop exoskeleton</category>
+  <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+  <description>Glide is a teleop exoskeleton from Trossen Robotics (United States). Status: announced.</description>
+</item>
+<item>
+  <title>ZeroLab F2 mocap suit: specs and sources</title>
+  <link>https://embodied.guide/robots/zerolab-f2/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/zerolab-f2/</guid>
+  <category>mocap suit</category>
+  <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+  <description>F2 is a mocap suit from ZeroLab (China). Status: announced.</description>
+</item>
+<item>
+  <title>ZeroLab F2 Pro+ mocap suit: specs and sources</title>
+  <link>https://embodied.guide/robots/zerolab-f2-pro-plus/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/zerolab-f2-pro-plus/</guid>
+  <category>mocap suit</category>
+  <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+  <description>F2 Pro+ is a mocap suit from ZeroLab (China). Status: announced.</description>
+</item>
+<item>
+  <title>X Square Robot QUANXTA Zero-G1 UMI gripper: specs and sources</title>
+  <link>https://embodied.guide/robots/x-square-robot-quanxta-zero-g1/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/x-square-robot-quanxta-zero-g1/</guid>
+  <category>UMI gripper</category>
+  <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+  <description>QUANXTA Zero-G1 is a UMI gripper from X Square Robot (China). Status: announced.</description>
+</item>
+<item>
+  <title>X Square Robot QUANXTA Zero-G0 UMI gripper: specs and sources</title>
+  <link>https://embodied.guide/robots/x-square-robot-quanxta-zero-g0/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/x-square-robot-quanxta-zero-g0/</guid>
+  <category>UMI gripper</category>
+  <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+  <description>QUANXTA Zero-G0 is a UMI gripper from X Square Robot (China). Status: announced in 2026.</description>
+</item>
+<item>
+  <title>Wake UMI Gripper UMI gripper: specs and sources</title>
+  <link>https://embodied.guide/robots/wake-umi-gripper/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/wake-umi-gripper/</guid>
+  <category>UMI gripper</category>
+  <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+  <description>UMI Gripper is a UMI gripper from Wake (United States). Status: in production, first released 2026.</description>
+</item>
+<item>
+  <title>PhysenAI UMI-gripper UMI gripper: specs and sources</title>
+  <link>https://embodied.guide/robots/physenai-umi-gripper/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/physenai-umi-gripper/</guid>
+  <category>UMI gripper</category>
+  <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+  <description>UMI-gripper is a UMI gripper from PhysenAI (China). Status: announced.</description>
+</item>
+<item>
+  <title>Xense Robotics XTAC UMI G1 UMI gripper: specs and sources</title>
+  <link>https://embodied.guide/robots/xense-robotics-xtac-umi-g1/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/xense-robotics-xtac-umi-g1/</guid>
+  <category>UMI gripper</category>
+  <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+  <description>XTAC UMI G1 is a UMI gripper from Xense Robotics (China). Status: announced.</description>
+</item>
+<item>
+  <title>AgileX Robotics PIKA PRO UMI gripper: specs and sources</title>
+  <link>https://embodied.guide/robots/agilex-robotics-pika-pro/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/agilex-robotics-pika-pro/</guid>
+  <category>UMI gripper</category>
+  <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+  <description>PIKA PRO is a UMI gripper from AgileX Robotics (China). Status: announced in 2026. Weight 550 g.</description>
+</item>
+<item>
+  <title>Noematrix CoMiner teleop exoskeleton: specs and sources</title>
+  <link>https://embodied.guide/robots/noematrix-cominer/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/noematrix-cominer/</guid>
+  <category>teleop exoskeleton</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>CoMiner is a teleop exoskeleton from Noematrix (China). Status: announced.</description>
+</item>
+<item>
+  <title>Elephant Robotics myController S570 teleop exoskeleton: specs and sources</title>
+  <link>https://embodied.guide/robots/elephant-robotics-mycontroller-s570/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/elephant-robotics-mycontroller-s570/</guid>
+  <category>teleop exoskeleton</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>myController S570 is a teleop exoskeleton from Elephant Robotics (China). Status: in production. Weight 1.5 kg.</description>
+</item>
+<item>
+  <title>Qnbot Exo Plus teleop exoskeleton: specs and sources</title>
+  <link>https://embodied.guide/robots/qnbot-exo-plus/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/qnbot-exo-plus/</guid>
+  <category>teleop exoskeleton</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>Exo Plus is a teleop exoskeleton from Qnbot (China). Status: announced. Weight 2.6 kg.</description>
+</item>
+<item>
+  <title>DexRobot DexCap teleop exoskeleton: specs and sources</title>
+  <link>https://embodied.guide/robots/dexrobot-dexcap/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/dexrobot-dexcap/</guid>
+  <category>teleop exoskeleton</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>DexCap is a teleop exoskeleton from DexRobot (China). Status: announced. Weight 4.2 kg.</description>
+</item>
+<item>
+  <title>Daimon Robotics DM-DataMaster teleop exoskeleton: specs and sources</title>
+  <link>https://embodied.guide/robots/daimon-robotics-dm-datamaster/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/daimon-robotics-dm-datamaster/</guid>
+  <category>teleop exoskeleton</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>DM-DataMaster is a teleop exoskeleton from Daimon Robotics (China). Status: announced. Weight 4 kg.</description>
+</item>
+<item>
+  <title>Virdyn DreamsCap X1 mocap suit: specs and sources</title>
+  <link>https://embodied.guide/robots/virdyn-dreamscap-x1/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/virdyn-dreamscap-x1/</guid>
+  <category>mocap suit</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>DreamsCap X1 is a mocap suit from Virdyn (China). Status: in production.</description>
+</item>
+<item>
+  <title>Virdyn VDSuitMini mocap suit: specs and sources</title>
+  <link>https://embodied.guide/robots/virdyn-vdsuitmini/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/virdyn-vdsuitmini/</guid>
+  <category>mocap suit</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>VDSuitMini is a mocap suit from Virdyn (China). Status: in production.</description>
+</item>
+<item>
+  <title>j-mex AgileMaster mocap suit: specs and sources</title>
+  <link>https://embodied.guide/robots/j-mex-agilemaster/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/j-mex-agilemaster/</guid>
+  <category>mocap suit</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>AgileMaster is a mocap suit from j-mex (Taiwan). Status: announced in 2026.</description>
+</item>
+<item>
+  <title>Noitom PN Link mocap suit: specs and sources</title>
+  <link>https://embodied.guide/robots/noitom-pn-link/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/noitom-pn-link/</guid>
+  <category>mocap suit</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>PN Link is a mocap suit from Noitom (China). Status: announced.</description>
+</item>
+<item>
+  <title>Xsens Awinda mocap suit: specs and sources</title>
+  <link>https://embodied.guide/robots/xsens-awinda/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/xsens-awinda/</guid>
+  <category>mocap suit</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>Awinda is a mocap suit from Xsens (Netherlands). Status: announced. Weight 525 g.</description>
+</item>
+<item>
+  <title>Xsens Link mocap suit: specs and sources</title>
+  <link>https://embodied.guide/robots/xsens-link/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/xsens-link/</guid>
+  <category>mocap suit</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>Link is a mocap suit from Xsens (Netherlands). Status: announced. Weight 1500 g.</description>
+</item>
+<item>
+  <title>ACE EGO KIT egocentric rig: specs and sources</title>
+  <link>https://embodied.guide/robots/ace-robotics-ace-ego-kit/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/ace-robotics-ace-ego-kit/</guid>
+  <category>egocentric rig</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>ACE EGO KIT is a egocentric rig from ACE Robotics (China). Status: announced.</description>
+</item>
+<item>
+  <title>GI Labs EGO1GS egocentric rig: specs and sources</title>
+  <link>https://embodied.guide/robots/gi-labs-ego1gs/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/gi-labs-ego1gs/</guid>
+  <category>egocentric rig</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>EGO1GS is a egocentric rig from GI Labs (United States). Status: in production, first released 2026.</description>
+</item>
+<item>
+  <title>Orbbec EGO-D3B egocentric rig: specs and sources</title>
+  <link>https://embodied.guide/robots/orbbec-ego-d3b/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/orbbec-ego-d3b/</guid>
+  <category>egocentric rig</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>EGO-D3B is a egocentric rig from Orbbec (China). Status: announced.</description>
+</item>
+<item>
+  <title>Orbbec EGO-4B egocentric rig: specs and sources</title>
+  <link>https://embodied.guide/robots/orbbec-ego-4b/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/orbbec-ego-4b/</guid>
+  <category>egocentric rig</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>EGO-4B is a egocentric rig from Orbbec (China). Status: announced.</description>
+</item>
+<item>
+  <title>Orbbec EGO-2 egocentric rig: specs and sources</title>
+  <link>https://embodied.guide/robots/orbbec-ego-2/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/orbbec-ego-2/</guid>
+  <category>egocentric rig</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>EGO-2 is a egocentric rig from Orbbec (China). Status: announced.</description>
+</item>
+<item>
+  <title>Maniformer MEgo View egocentric rig: specs and sources</title>
+  <link>https://embodied.guide/robots/maniformer-mego-view/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/maniformer-mego-view/</guid>
+  <category>egocentric rig</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>MEgo View is a egocentric rig from Maniformer (China). Status: announced.</description>
+</item>
+<item>
+  <title>IO-AI Tech SenseXperience UMI gripper: specs and sources</title>
+  <link>https://embodied.guide/robots/io-ai-tech-sensexperience/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/io-ai-tech-sensexperience/</guid>
+  <category>UMI gripper</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>SenseXperience is a UMI gripper from IO-AI Tech (China). Status: announced. Weight 160 g.</description>
+</item>
+<item>
+  <title>Daimon Robotics DM-DataClaw UMI gripper: specs and sources</title>
+  <link>https://embodied.guide/robots/daimon-robotics-dm-dataclaw/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/daimon-robotics-dm-dataclaw/</guid>
+  <category>UMI gripper</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>DM-DataClaw is a UMI gripper from Daimon Robotics (China). Status: announced.</description>
+</item>
+<item>
+  <title>Lumos Robotics FastUMI Pro UMI gripper: specs and sources</title>
+  <link>https://embodied.guide/robots/lumos-robotics-fastumi-pro/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/lumos-robotics-fastumi-pro/</guid>
+  <category>UMI gripper</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>FastUMI Pro is a UMI gripper from Lumos Robotics (China). Status: announced. Weight 635 g.</description>
+</item>
+<item>
+  <title>Orbbec UMI F-3 UMI gripper: specs and sources</title>
+  <link>https://embodied.guide/robots/orbbec-umi-f3/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/orbbec-umi-f3/</guid>
+  <category>UMI gripper</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>UMI F-3 is a UMI gripper from Orbbec (China). Status: announced.</description>
+</item>
+<item>
+  <title>Maniformer MEgo Gripper UMI gripper: specs and sources</title>
+  <link>https://embodied.guide/robots/maniformer-mego-gripper/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/maniformer-mego-gripper/</guid>
+  <category>UMI gripper</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>MEgo Gripper is a UMI gripper from Maniformer (China). Status: announced. Weight 540 g.</description>
+</item>
+<item>
+  <title>Robotics Center RC UMI UMI gripper: specs and sources</title>
+  <link>https://embodied.guide/robots/robotics-center-rc-umi/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/robotics-center-rc-umi/</guid>
+  <category>UMI gripper</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>RC UMI is a UMI gripper from Robotics Center (United States). Status: in production.</description>
+</item>
+<item>
+  <title>Mu Robotics HandUMI UMI gripper: specs and sources</title>
+  <link>https://embodied.guide/robots/mu-robotics-handumi/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/mu-robotics-handumi/</guid>
+  <category>UMI gripper</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>HandUMI is a UMI gripper from Mu Robotics (United States). Status: in production, first released 2026.</description>
+</item>
+<item>
+  <title>Almond Robotics Mantis UMI UMI gripper: specs and sources</title>
+  <link>https://embodied.guide/robots/almond-robotics-mantis-umi/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/almond-robotics-mantis-umi/</guid>
+  <category>UMI gripper</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>Mantis UMI is a UMI gripper from Almond Robotics (United States). Status: in production.</description>
+</item>
+<item>
+  <title>Trossen Robotics TRumi Gripper UMI gripper: specs and sources</title>
+  <link>https://embodied.guide/robots/trossen-robotics-trumi-gripper/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/trossen-robotics-trumi-gripper/</guid>
+  <category>UMI gripper</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>TRumi Gripper is a UMI gripper from Trossen Robotics (United States). Status: in production.</description>
+</item>
+<item>
+  <title>CHINGMU OptiUMI UMI gripper: specs and sources</title>
+  <link>https://embodied.guide/robots/chingmu-optiumi/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/chingmu-optiumi/</guid>
+  <category>UMI gripper</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>OptiUMI is a UMI gripper from CHINGMU (China). Status: announced. Weight 450 g.</description>
+</item>
+<item>
+  <title>Shanghai Jiao Tong University Foresight Forcing robot AI model: specs and sources</title>
+  <link>https://embodied.guide/robots/shanghai-jiao-tong-university-foresight-forcing/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/shanghai-jiao-tong-university-foresight-forcing/</guid>
+  <category>robot AI model</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>Foresight Forcing is a robot AI model from Shanghai Jiao Tong University (China). Released 2026.</description>
+</item>
+<item>
+  <title>Fudan University GenPA robot AI model: specs and sources</title>
+  <link>https://embodied.guide/robots/fudan-university-genpa/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/fudan-university-genpa/</guid>
+  <category>robot AI model</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>GenPA is a robot AI model from Fudan University (China). Released 2026.</description>
+</item>
+<item>
+  <title>NVIDIA SANA-Robot robot AI model: specs and sources</title>
+  <link>https://embodied.guide/robots/nvidia-sana-robot/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/nvidia-sana-robot/</guid>
+  <category>robot AI model</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>SANA-Robot is a robot AI model from NVIDIA (United States). Released 2026.</description>
+</item>
+<item>
+  <title>Inria Hi3R-VLA robot AI model: specs and sources</title>
+  <link>https://embodied.guide/robots/inria-hi3r-vla/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/inria-hi3r-vla/</guid>
+  <category>robot AI model</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>Hi3R-VLA is a robot AI model from Inria (France). Released 2026.</description>
+</item>
+<item>
+  <title>Beijing Zhongguancun Academy FoveaWAM robot AI model: specs and sources</title>
+  <link>https://embodied.guide/robots/beijing-zhongguancun-academy-foveawam/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/beijing-zhongguancun-academy-foveawam/</guid>
+  <category>robot AI model</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>FoveaWAM is a robot AI model from Beijing Zhongguancun Academy (China). Released 2026.</description>
+</item>
+<item>
+  <title>Galaxea Dynamics G0.7 robot AI model: specs and sources</title>
+  <link>https://embodied.guide/robots/galaxea-dynamics-g0-7/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/galaxea-dynamics-g0-7/</guid>
+  <category>robot AI model</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>G0.7 is a robot AI model from Galaxea Dynamics (China). Released 2026.</description>
+</item>
+<item>
+  <title>Wuhan University TipDex-VTLA robot AI model: specs and sources</title>
+  <link>https://embodied.guide/robots/wuhan-university-tipdex-vtla/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/wuhan-university-tipdex-vtla/</guid>
+  <category>robot AI model</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>TipDex-VTLA is a robot AI model from Wuhan University (China). Released 2026.</description>
+</item>
+<item>
+  <title>XPENG WorldGPT robot AI model: specs and sources</title>
+  <link>https://embodied.guide/robots/xpeng-worldgpt/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/xpeng-worldgpt/</guid>
+  <category>robot AI model</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>WorldGPT is a robot AI model from XPENG (China). Released 2026.</description>
+</item>
+<item>
+  <title>X Square Robot WALL-OSS-1.0 robot AI model: specs and sources</title>
+  <link>https://embodied.guide/robots/x-square-robot-wall-oss-1-0/</link>
+  <guid isPermaLink="true">https://embodied.guide/robots/x-square-robot-wall-oss-1-0/</guid>
+  <category>robot AI model</category>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+  <description>WALL-OSS-1.0 is a robot AI model from X Square Robot (China). Released 2026.</description>
+</item>
+</channel>
+</rss>
